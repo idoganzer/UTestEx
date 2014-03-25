@@ -1,0 +1,120 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>UTest</groupId>
+  <artifactId>UTest.Ex</artifactId>
+  <packaging>war</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>UTest.Ex Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <properties> 
+  <spring.version>4.0.2.RELEASE</spring.version> 
+  <log4j.version>1.2.16</log4j.version> 
+  <jackson.mapper.version>1.5.6</jackson.mapper.version>
+  </properties> 
+  
+  <parent>
+    <groupId>UTest</groupId>
+    <artifactId>parent-pom-UTestEx</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../pom.xml</relativePath>
+	</parent>
+
+  <dependencies>
+
+    <dependency>
+    	<groupId>org.hibernate</groupId>
+    	<artifactId>hibernate-core</artifactId>
+    	<version>4.3.4.Final</version>
+    </dependency> 
+        <dependency>  
+   		 <groupId>log4j</groupId>  
+      	 <artifactId>log4j</artifactId>  
+         <version>${log4j.version}</version>  
+	 </dependency>
+  	<dependency>
+        <groupId>org.springframework</groupId>  
+        <artifactId>spring-core</artifactId>  
+        <version>${spring.version}</version>  
+      </dependency>  
+      <dependency>  
+        <groupId>org.springframework</groupId>  
+        <artifactId>spring-context</artifactId>  
+        <version>${spring.version}</version>  
+     </dependency>  
+      <dependency>  
+       <groupId>org.springframework</groupId>  
+        <artifactId>spring-beans</artifactId>  
+        <version>${spring.version}</version>  
+     </dependency>  
+     <dependency>  
+        <groupId>org.springframework</groupId>  
+        <artifactId>spring-aop</artifactId>  
+        <version>${spring.version}</version>  
+      </dependency>  
+      <dependency>  
+       <groupId>org.springframework</groupId>  
+       <artifactId>spring-aspects</artifactId>  
+        <version>${spring.version}</version>  
+      </dependency>    
+      <dependency>  
+        <groupId>org.springframework</groupId>  
+        <artifactId>spring-expression</artifactId>  
+        <version>${spring.version}</version>  
+      </dependency>  
+      <dependency>  
+                 <groupId>org.springframework</groupId>  
+                 <artifactId>spring-web</artifactId>  
+                 <version>${spring.version}</version>  
+            </dependency>  
+            <dependency>  
+                 <groupId>org.springframework</groupId>  
+                 <artifactId>spring-webmvc</artifactId>  
+                 <version>${spring.version}</version>  
+            </dependency>  
+            <dependency>  
+                 <groupId>org.codehaus.jackson</groupId>  
+                <artifactId>jackson-mapper-asl</artifactId>  
+                 <version>${jackson.mapper.version}</version>  
+            </dependency>  
+            <dependency>  
+                 <groupId>javax.servlet</groupId>  
+                 <artifactId>servlet-api</artifactId>  
+                 <version>2.4</version>  
+            </dependency> 
+            
+		<dependency>
+        <groupId>org.aspectj</groupId>
+        <artifactId>aspectjweaver</artifactId>
+        <version>1.6.1</version>
+		</dependency>
+            
+            <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>1.0.0.RC5</version>
+    </dependency>
+    
+
+      <dependency>
+ 		 <groupId>UTest.Ex</groupId>
+  		<artifactId>UTest.Ex.DAL</artifactId>
+ 		 <version>0.0.1-SNAPSHOT</version>
+      </dependency>
+    
+  </dependencies>
+  <repositories>
+    <repository>
+        <id>spring-milestones</id>
+        <name>Spring Milestones</name>
+        <url>http://repo.spring.io/milestone</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+    </repository>
+</repositories>
+  <build>
+    <finalName>UTest.Ex</finalName>
+  </build>
+</project>
