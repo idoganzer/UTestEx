@@ -23,7 +23,7 @@
    </property>
 
    <!-- List of XML mapping files -->
-   <mapping resource="dal/objects/User.hbm.xml"/>
+   <mapping resource="User.hbm.xml"/>
 
 </session-factory>
 </hibernate-configuration>

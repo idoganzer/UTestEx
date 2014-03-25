@@ -8,6 +8,11 @@
   <packaging>pom</packaging>
 
   <name>UTest.Ex.Parent.Pom</name>
+  
+  <modules>
+    <module>UTest.Ex.DAL</module>
+	<module>UTest.Ex</module>
+  </modules>
 
   <dependencies>
   

@@ -5,14 +5,15 @@ import java.util.*;
 import dal.objects.User;
 import Mail.Service.*;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-//@Configuration
-//@ComponentScan(value={"Mail.Service"})
+@Scope("session")
 public class MailController 
 {
 	Map<String, String> usersTokens = new HashMap<String, String>(); 
@@ -20,20 +21,12 @@ public class MailController
 	
 	public MailController()
 	{
-		//AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MailController.class);
-		//mailService = context.getBean(MailService.class);
-
-        //close the context
-        //context.close();
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		mailService = context.getBean(MailService.class);
+		//mailService = new MailService();
 		
-		mailService = new MailService();
+        context.close();
 	}
-	
-//	@Bean
-//    IConnection getIConnection()
-//	{
-//        return new Connection();
-//    }
 	
     @RequestMapping("/login")
     public @ResponseBody String login(
@@ -54,8 +47,9 @@ public class MailController
     		throw new Exception("User already logged in");
     	}
 
-    	usersTokens.put(userId, java.util.UUID.randomUUID().toString());
-    	return userId + ":" + java.util.UUID.randomUUID().toString();
+    	String guid = java.util.UUID.randomUUID().toString();
+    	usersTokens.put(userId, guid);
+    	return userId + ":" + guid;
     }
     
     @RequestMapping("/find")

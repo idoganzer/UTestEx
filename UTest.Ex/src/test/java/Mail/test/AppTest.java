@@ -39,6 +39,16 @@ public class AppTest
     public void testApp()
     {
     	MailController mailcon = new MailController();
+    	try
+    	{
+    	mailcon.login("idoganzer@gmail.com", "123456");
+    	mailcon.login("idoganzer@gmail.com", "123456");
+    	}
+    	catch(Exception ex)
+    	{
+    		
+    		
+    	}
         assertTrue( true );
     }
 }
