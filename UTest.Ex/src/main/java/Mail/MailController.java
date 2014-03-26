@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@Scope("session")
+@Scope("singleton")
 public class MailController 
 {
 	Map<String, String> usersTokens = new HashMap<String, String>(); 
