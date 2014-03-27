@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="dal.objects">
+
+    <class name="Message" table="messages">
+        <id name="id" column="messageId">
+        	 <generator class="increment"/>
+        </id>
+
+        <property name="subject" column="subject"/>
+        <property name="content" column="content"/>
+        <property name="sourceId" column="sourceId"/>
+        <property name="destinationId" column="destinationId"/>
+        <property name="isRead" column="isRead"/>
+        
+        <property name="sourceEmail" insert="false" update="false" >
+  		    <formula>
+      		(
+         		SELECT u.emailAddress 
+         		FROM users as u 
+         		WHERE u.UserId = sourceId
+      		)
+      		</formula>
+  		</property>
+  		
+  		<property name="destinationEmail" insert="false" update="false" >
+  		    <formula>
+      		(
+         		SELECT u.emailAddress 
+         		FROM users as u 
+         		WHERE u.UserId = destinationId
+      		)
+      		</formula>
+  		</property>
+        
+    </class>
+
+</hibernate-mapping>

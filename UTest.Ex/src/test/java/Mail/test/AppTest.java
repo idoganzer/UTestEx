@@ -1,54 +1,52 @@
 package Mail.test;
 
 import java.util.List;
-import Mail.MailController;
 
+import org.junit.Test;
+import org.junit.runner.RunWith;
+
+import Mail.MailController;
+import Mail.Service.MailService;
 import dal.conn.Connection;
 import dal.objects.User;
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.fail;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+import org.junit.Ignore;
+import org.junit.runner.RunWith;
+import org.junit.runners.JUnit4;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 
 /**
  * Unit test for simple App.
  */
+@RunWith(JUnit4.class)
 public class AppTest 
-    extends TestCase
 {
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
+	static MailService mailService;
+	
+	@BeforeClass 
+	public static void Init()
+	{
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+        mailService = context.getBean(MailService.class);
+        context.close();
+	}
+	
+    @Test
+    public void GetUserByEmail()
     {
-        super( testName );
-    }
-
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-    	MailController mailcon = new MailController();
     	try
     	{
-    	mailcon.login("idoganzer@gmail.com", "123456");
-    	mailcon.login("idoganzer@gmail.com", "123456");
+    		String token = mailService.Login("idoganzer@gmail.com", "123456");
+    		assertTrue((token!= null) && (!token.isEmpty()));
     	}
-    	catch(Exception ex)
+    	catch(Exception e)
     	{
-    		
-    		
+    		fail(e.getMessage());
     	}
-        assertTrue( true );
     }
 }

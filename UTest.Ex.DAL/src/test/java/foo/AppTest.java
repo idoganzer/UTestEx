@@ -3,6 +3,7 @@ package foo;
 import java.util.List;
 
 import dal.conn.Connection;
+import dal.objects.Message;
 import dal.objects.User;
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -37,9 +38,12 @@ public class AppTest
      */
     public void testApp()
     {
-//    	Connection conn = new Connection();
-//    	conn.init();
-//    	User user = conn.GetUser("idoganzer@gmail.com", "123456");
+    	Connection conn = new Connection();
+    	conn.init();
+    	//Message ms = new Message("AAA","BBBBBB",1,1);
+    	//conn.SendMessage(ms);
+    	//User user = conn.GetUser("idoganzer@gmail.com", "123456");
+    	List<Message> lst = conn.GetUnreadMessages(1);
         assertTrue( true );
     }
 }

@@ -25,14 +25,14 @@ DROP TABLE IF EXISTS `messages`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `messages` (
-  `MessageId` int(11) NOT NULL,
+  `messageId` int(11) NOT NULL,
   `subject` varchar(45) DEFAULT NULL,
   `content` varchar(200) DEFAULT NULL,
-  `from` int(11) NOT NULL,
-  `to` int(11) NOT NULL,
+  `sourceId` int(11) NOT NULL,
+  `destinationId` int(11) NOT NULL,
   `isRead` binary(1) DEFAULT NULL,
-  PRIMARY KEY (`MessageId`),
-  UNIQUE KEY `MessageId_UNIQUE` (`MessageId`)
+  PRIMARY KEY (`messageId`),
+  UNIQUE KEY `MessageId_UNIQUE` (`messageId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -42,7 +42,32 @@ CREATE TABLE `messages` (
 
 LOCK TABLES `messages` WRITE;
 /*!40000 ALTER TABLE `messages` DISABLE KEYS */;
+INSERT INTO `messages` VALUES (10,'Test','Bla bla',1,1,'0'),(11,'AAA','BBBBBB',1,1,'0'),(12,'AAA','BBBBBB',1,2,'0'),(13,'CCC','DDD',1,1,'0');
 /*!40000 ALTER TABLE `messages` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `user_token`
+--
+
+DROP TABLE IF EXISTS `user_token`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user_token` (
+  `userId` int(11) NOT NULL,
+  `token` varchar(45) NOT NULL,
+  PRIMARY KEY (`userId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `user_token`
+--
+
+LOCK TABLES `user_token` WRITE;
+/*!40000 ALTER TABLE `user_token` DISABLE KEYS */;
+INSERT INTO `user_token` VALUES (1,'c4e93c30-eb51-4df9-898c-0b270bbaefeb');
+/*!40000 ALTER TABLE `user_token` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -68,7 +93,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'idoganzer@gmail.com','123456');
+INSERT INTO `users` VALUES (1,'idoganzer@gmail.com','123456'),(2,'blabla@gmail.com','blabla'),(3,'AAA@walla.com','walla');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -81,4 +106,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-03-25 22:28:51
+-- Dump completed on 2014-03-27 15:59:08

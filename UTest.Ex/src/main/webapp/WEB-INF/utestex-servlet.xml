@@ -12,4 +12,10 @@
         http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd">
  <context:component-scan base-package="Mail" />
  <mvc:annotation-driven />
+ <mvc:interceptors> 	
+ 	 <mvc:interceptor>
+        <mvc:mapping path="/Mail/*"/>
+        <bean class="Mail.AuthorizationInterceptor" />
+   	 </mvc:interceptor>
+</mvc:interceptors> 
   </beans>
