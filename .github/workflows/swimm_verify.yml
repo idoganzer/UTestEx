@@ -1,0 +1,27 @@
+name: Swimm
+
+on: pull_request
+
+jobs:
+  Verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+      - name: git configure
+        shell: bash
+        run: git config user.name temp && git config user.email temp@swimm.io
+      - name: download Swimm
+        shell: bash
+        run: curl "https://firebasestorage.googleapis.com/v0/b/swimmio.appspot.com/o/cli%2Flinux%2Fv034%2Fswimm-cli-bundled.js?alt=media&token=7de2a291-22ae-4aaa-bc69-0c0841a8462e" >swimm_cli 
+      - name: Chmod swimm
+        shell: bash
+        run: chmod +x swimm_cli
+      - name: swimm version
+        shell: bash
+        run: node swimm_cli --version
+      - name: verify
+        shell: bash
+        run: node swimm_cli verify
