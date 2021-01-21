@@ -1,0 +1,41 @@
+{
+    "id": "C9S4O7EOocN36A667vrR",
+    "name": "Test111",
+    "dod": "",
+    "description": "",
+    "summary": "",
+    "hunksOrder": [
+        "UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java_0"
+    ],
+    "tests": [],
+    "hints": [],
+    "play_mode": "walkthrough",
+    "swimmPatch": {
+        "UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java": {
+            "diffType": "MODIFIED",
+            "fileDiffHeader": "diff --git a/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java b/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java\nindex e63fcbf..e63fcbf 100644\n--- a/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java\n+++ b/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java",
+            "hunks": [
+                {
+                    "swimmHunkMetadata": {
+                        "hunkComments": []
+                    },
+                    "hunkDiffLines": [
+                        "@@ -11,8 +11,6 @@",
+                        " \r",
+                        " public class AuthorizationInterceptor implements HandlerInterceptor  \r",
+                        " {\r",
+                        "-\tprivate MailService mailService;\r",
+                        "-\tprivate HashMap<String,Integer> usersTokensCache = new HashMap<String,Integer>();\r",
+                        " \t\r",
+                        " \tpublic AuthorizationInterceptor()\r",
+                        " \t{\r"
+                    ]
+                }
+            ]
+        }
+    },
+    "app_version": "0.3.4-0",
+    "file_version": "1.0.4",
+    "diff": "diff --git a/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java b/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java\nindex e63fcbf..e63fcbf 100644\n--- a/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java\n+++ b/UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java\n@@ -11,8 +11,6 @@\n \r\n public class AuthorizationInterceptor implements HandlerInterceptor  \r\n {\r\n-\tprivate MailService mailService;\r\n-\tprivate HashMap<String,Integer> usersTokensCache = new HashMap<String,Integer>();\r\n \t\r\n \tpublic AuthorizationInterceptor()\r\n \t{\r\n",
+    "last_commit_sha_for_swimm_patch": "f72c91c092ed7f19bccdbd9cfd2e95e1ed242f17"
+}
