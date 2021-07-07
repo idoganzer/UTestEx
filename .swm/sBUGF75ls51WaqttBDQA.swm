@@ -1,40 +1,38 @@
 {
     "id": "sBUGF75ls51WaqttBDQA",
     "name": "Test222",
-    "dod": "",
-    "description": "",
-    "summary": "",
-    "hunksOrder": [
-        "UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java_0"
-    ],
-    "tests": [],
-    "hints": [],
-    "play_mode": "walkthrough",
-    "swimmPatch": {
-        "UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java": {
-            "diffType": "MODIFIED",
-            "fileDiffHeader": "diff --git a/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java b/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java\nindex 5af61bf..5af61bf 100644\n--- a/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java\n+++ b/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java",
-            "hunks": [
-                {
-                    "swimmHunkMetadata": {
-                        "hunkComments": []
-                    },
-                    "hunkDiffLines": [
-                        "@@ -11,7 +11,5 @@",
-                        " \tpublic void SaveMessage(Message msg);\r",
-                        " \tpublic List<Message> GetUnreadMessages(int userId);\r",
-                        " \tpublic List<Message> Find(int userId, String query);\r",
-                        "-\tpublic UserToken GetUserToken(int userId);\r",
-                        "-\tpublic UserToken GetUserToken(String token);\r",
-                        " \tpublic void SaveUserToken(UserToken ut);\r",
-                        " }"
-                    ]
-                }
+    "task": {
+        "dod": "",
+        "tests": [],
+        "hints": []
+    },
+    "content": [
+        {
+            "type": "text",
+            "text": "HI"
+        },
+        {
+            "type": "snippet",
+            "path": "UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java",
+            "comments": [],
+            "firstLineNumber": 11,
+            "lines": [
+                " \tpublic void SaveMessage(Message msg);",
+                " \tpublic List<Message> GetUnreadMessages(int userId);",
+                " \tpublic List<Message> Find(int userId, String query);",
+                "*\tpublic UserToken GetUserToken(int userId);",
+                "*\tpublic UserToken GetUserToken(String token);",
+                " \tpublic void SaveUserToken(UserToken ut);",
+                " }"
             ]
         }
-    },
-    "app_version": "0.3.4-0",
-    "file_version": "1.0.4",
-    "diff": "diff --git a/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java b/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java\nindex 5af61bf..5af61bf 100644\n--- a/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java\n+++ b/UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java\n@@ -11,7 +11,5 @@\n \tpublic void SaveMessage(Message msg);\r\n \tpublic List<Message> GetUnreadMessages(int userId);\r\n \tpublic List<Message> Find(int userId, String query);\r\n-\tpublic UserToken GetUserToken(int userId);\r\n-\tpublic UserToken GetUserToken(String token);\r\n \tpublic void SaveUserToken(UserToken ut);\r\n }\n",
-    "last_commit_sha_for_swimm_patch": "cbab70b75833d554c3335455a3304741191af1cc"
+    ],
+    "symbols": {},
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.5.0-0",
+        "file_blobs": {
+            "UTest.Ex.DAL/src/main/java/dal/conn/IConnection.java": "5af61bfad13931ff870ad7e7ecf3789b057b7e88"
+        }
+    }
 }
