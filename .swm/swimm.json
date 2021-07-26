@@ -1,3 +1,6 @@
 {
-    "repo_id": "ls4DA2fLasmQuEbT4ipw"
+    "repo_id": "ls4DA2fLasmQuEbT4ipw",
+    "configuration": {
+        "swmd": true
+    }
 }
