@@ -7,7 +7,7 @@ import dal.objects.*;
 public interface IConnection 
 {
 	public void init();
-	public User GetUser(String emailAddress, String password);
+	public User GetUsers(String emailAddress, String password);
 	public void SaveMessage(Message msg);
 	public List<Message> GetUnreadMessages(int userId);
 	public List<Message> Find(int userId, String query);
