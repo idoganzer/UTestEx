@@ -18,7 +18,7 @@ public class Connection implements IConnection
         try 
         {
         	// Session factory creation
-            Configuration cfg = new Configuration().configure("hibernate.cfg.xml");         
+            Configuration cfg = new Configuration().configure("hibernate.cfg.json");         
             StandardServiceRegistryBuilder sb = new StandardServiceRegistryBuilder();
             sb.applySettings(cfg.getProperties());
             StandardServiceRegistry standardServiceRegistry = sb.build();                   
