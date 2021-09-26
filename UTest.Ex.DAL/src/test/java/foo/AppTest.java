@@ -24,6 +24,10 @@ public class AppTest
     {
         super( testName );
     }
+    
+    
+    
+    
 
     /**
      * @return the suite of tests being tested
@@ -40,10 +44,11 @@ public class AppTest
     {
     	Connection conn = new Connection();
     	conn.init();
+        Hello this is ido
     	//Message ms = new Message("AAA","BBBBBB",1,1);
     	//conn.SendMessage(ms);
     	//User user = conn.GetUser("idoganzer@gmail.com", "123456");
-    	List<Message> lst = conn.GetUnreadMessages(1);
+    	cvhjbkhj ghjklhjk ghjklhjklhgjk
         assertTrue( true );
     }
 }
