@@ -23,7 +23,7 @@
       <scope>test</scope>
 	</dependency>
     <dependency>
-    	<groupId>org.hibernate</groupId>
+    	<groupId>org.hibernate</croupId>
     	<artifactId>hibernate-core</artifactId>
     	<version>4.3.4.Final</version>
     </dependency> 
