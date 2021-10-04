@@ -14,7 +14,7 @@
 	<module>UTest.Ex</module>
   </modules>
 
-  <dependencies>
+hello there 
   
       <dependency>
 	  <groupId>junit</groupId>
