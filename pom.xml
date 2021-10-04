@@ -14,7 +14,25 @@
 	<module>UTest.Ex</module>
   </modules>
 
-ytghjkghjk ghjkghjlgjhkghjklhjklhji
+export async function loadProcessedDraftById({ draftId, repoId, branch }) {
+  const drafts = await state.get({ key: `drafts`, repoId: repoId, defaultValue: [] });
+  const unitDraft = drafts.find((draft) => {
+    const draftExists = draft.draftId === draftId;
+    return draftExists && (!config.isWebApp || draft.draftBranch === branch);
+  });
+  if (!unitDraft) {
+    return null;
+  }
+
+  // Autosync draft snippets
+  return await loadAndProcessSWMFile({
+    swmFile: unitDraft,
+    originalSwmFile: objectUtils.deepClone(unitDraft),
+    shouldAutoSync: true,
+    repoId: repoId,
+    unitId: draftId,
+  });
+}
   
       <dependency>
 	  <groupId>junit</groupId>
