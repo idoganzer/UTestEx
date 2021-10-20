@@ -1,6 +1,6 @@
 ---
 id: 1SH8H
-name: ABCDE
+name: ABCDEF
 file_version: 1.0.2
 app_version: 0.6.3-0
 ---
@@ -14,6 +14,7 @@ BBB
 
 <!-- Steps - Do not remove this comment --> 
 1. [test_overlapping_hunks_wrong_context_in_swm](http://localhost:5000/#/repos/gtMYBGkMmfphS6DieumG/docs/0XANV9qOgKkT859syrww) 
+2. [applicability_add_trailing_newline](http://localhost:5000/#/repos/gtMYBGkMmfphS6DieumG/docs/18PTFOi4RGUVR8pM98mI) 
 
 
 <br/>
