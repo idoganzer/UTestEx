@@ -12,7 +12,11 @@ const createBaseString =
  * @param range
  * @return {[string, string]}
  */
-const getDate = range => {
+ghjkbgjk
+gbtdb
+gtdb
+gtd
+shyjyrwhyrwt
     let now = new Date(),
         startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
