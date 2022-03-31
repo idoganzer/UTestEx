@@ -5,7 +5,7 @@ file_version: 1.0.2
 app_version: 0.7.8-1
 ---
 
-This is text R&D compnay's chdjlsvhsfjk
+This is text [R&D](https://google.ocm) compnay's chdjlsvhsfjk
 
 <br/>
 
