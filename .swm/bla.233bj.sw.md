@@ -2,12 +2,12 @@
 id: 233bj
 name: bla
 file_version: 1.0.2
-app_version: 0.7.2-0
+app_version: 0.7.10-0
 file_blobs:
   communication.js: 04860574a7a4f81160a19e5df3bb853f275ba0eb
 ---
 
-The `getDate`[<sup id="NaVhE">↓</sup>](#f-NaVhE) returns the start and end points of the week. AAAAAA
+The `getDate`[<sup id="NaVhE">↓</sup>](#f-NaVhE) returns the start and end points of the week. AAAAAAaaaa
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
