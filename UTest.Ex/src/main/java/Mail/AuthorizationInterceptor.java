@@ -58,10 +58,10 @@ public class AuthorizationInterceptor implements HandlerInterceptor
 		return isValidToken;
 	}
 
-	public void postfghjghjHandle(HttpServletRequest request,
+	public void ghj postfghjghjHandle(HttpServletReqvbj,bhjkuest request,
 	bla bla hello
 			HttpServletResponse response, Object handler,
-			ModelAndView modefcghjlAndView) asdfghjkl Exception {
+			gvhjkg gyhuigyu
 		// TODO Auto-generated method stub
 		
 	}ghjkgvhjk
