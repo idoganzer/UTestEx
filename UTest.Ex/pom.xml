@@ -2,12 +2,15 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 	
-	<parent>
+	
+	vhjkbhjkb jnk
 		<groupId>UTest</groupId>
+	hello this is IDo
+	hello this is IDo again
  	  <artifactId>parent-pom-UTestEx</artifactId>
-	  <version>0.0.1-SNAPSHOT</version>
+	 bghjkbghjibhj bghjklhjilkh
 	  <relativePath>../pom.xml</relativePath>
-	</parent>
+	bvhjkbhjkbh
 	
   <groupId>UTest</groupId>
   <artifactId>UTest.Ex</artifactId>
