@@ -19,8 +19,6 @@ bla
 This is comment
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 UTest.Ex/.settings/org.eclipse.wst.common.project.facet.core.xml
-<!-- collapsed -->
-
 ```xml
 ⬜ 2      <faceted-project>
 ⬜ 3        <runtime name="Apache Tomcat v7.0"/>
@@ -40,6 +38,8 @@ Hi
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 UTest.Ex.DAL/src/main/java/dal/conn/Connection.java
+<!-- collapsed -->
+
 ```java
 ⬜ 18             try 
 ⬜ 19             {
