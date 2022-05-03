@@ -2,7 +2,7 @@
 id: lho1d
 name: Test Playlist 084
 file_version: 1.0.2
-app_version: 0.8.3-0
+app_version: 0.8.4-0
 ---
 
 <!-- Intro - Do not remove this comment -->
@@ -15,7 +15,8 @@ hguklghhj ghjkhj
 2. [test_overlapping_hunks_wrong_context_in_swm](https://swimm-web-app.web.app/repos/gtMYBGkMmfphS6DieumG/docs/0XANV9qOgKkT859syrww)
 3. [bla](bla.233bj.sw.md)
 4. [readme EDITED](https://raw.githubusercontent.com/microsoft/vscode-extension-samples/main/README.md)
-5. [THis is title](https://www.youtube.com/watch?v=17f8elHd6aM)
+5. [NEW PL2](new-pl2.NUMgwAhPAsRGgx9UbghV.pl.sw.md)
+6. [THis is title](https://www.youtube.com/watch?v=17f8elHd6aM)
 
 
 <br/>
