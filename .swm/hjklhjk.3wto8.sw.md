@@ -7,7 +7,15 @@ file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
-hjklhjk `📄 UTest.Ex.DAL/.classpath` Hi `📄 UTest.Ex/.gitignore`
+ghjkghj [[sym-link:(365497d9-9057-4c85-a539-f692167fed10)This is text]] [[sym-text:Date(ad214827-e028-48e8-87b7-74694a647841)]] [[sym:./.gitignore(88093d3b-277c-425a-9556-e89809ec5bc0)]]bfdsbg
+
+<br/>
+
+hjklhjk `📄 UTest.Ex.DAL/.classpath` Hi `📄 UTest.Ex/.gitignore`Hi `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx) gvhefkhv
+
+<br/>
+
+hjklhjk `📄 UTest.Ex.DAL/.classpath` Hi `📄 UTest.Ex/.gitignore`Hi `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx) gvhefkhv
 
 <br/>
 
