@@ -12,10 +12,7 @@ const createBaseString =
  * @param range
  * @return {[string, string]}
  */
-ghjkbgjk
-gbtdb
-gtdb
-gtd
+hjkvdflhbjsdfhlbjfdkslnbjgdfl
 shyjyrwhyrwt
     let now = new Date(),
         startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
@@ -25,7 +22,7 @@ shyjyrwhyrwt
 };
 
 /**
- * getDataByType Takes and returns the results of fetching a specific API route
+ * getDataByType Makes and returns the results of fetching a specific API route
  * @param type An API route
  * @param range A parameter for the API call
  * @return {Promise<any>}
