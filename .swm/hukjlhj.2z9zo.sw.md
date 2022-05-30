@@ -2,7 +2,7 @@
 id: 2z9zo
 name: hukjlhj
 file_version: 1.0.2
-app_version: 0.8.5-0
+app_version: 0.8.6-2
 file_blobs:
   communication.js: ebca106a8db1a2f4fd8a27c5e7f2b07c0eab14e5
 ---
@@ -54,6 +54,14 @@ Hi `getFullYear`[<sup id="2wsMQg">↓</sup>](#f-2wsMQg) hello bla `Date`[<sup id
 <br/>
 
 o bla `Date`[<sup id="Z2erryL">↓</sup>](#f-Z2erryL)frsgvfs bla
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2Fls4DA2fLasmQuEbT4ipw%2Fbcbd2f57-d927-449f-ab3e-25deacf8a9ec.png?alt=media&token=97cc244f-a5ea-4a25-bbaf-fd31047f388c" style="width:'50%'"/></div>
+
+<br/>
+
+Hello
 
 <br/>
 
