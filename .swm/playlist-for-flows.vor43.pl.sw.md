@@ -6,10 +6,11 @@ app_version: 0.8.8-0
 ---
 
 <!-- Steps - Do not remove this comment -->
-1. [This is text](this-is-text.ltl9l.sw.md)
-2. [youtube](https://www.youtube.com/watch?v=17f8elHd6aM)
-3. [bla](bla.233bj.sw.md)
-4. [MD link](https://raw.githubusercontent.com/chvancooten/follina.py/main/README.md)
+1. [youtube](https://www.youtube.com/watch?v=17f8elHd6aM)
+2. [This is text](this-is-text.ltl9l.sw.md)
+3. [MD link](https://raw.githubusercontent.com/chvancooten/follina.py/main/README.md)
+4. [bla](bla.233bj.sw.md)
+5. [🧰 Adding a New CLI Command in { Project Name }](adding-a-new-cli-command-in-project-name.1i9p6.sw.md)
 
 
 <br/>
