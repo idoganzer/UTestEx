@@ -11,7 +11,7 @@ Hello
 
 <br/>
 
-|Hi                   |This is `Date`[<sup id="Z1fKYTE">↓</sup>](#f-Z1fKYTE) `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn)|
+|Hi                   |This is `Date`[<sup id="Z1fKYTE">↓</sup>](#f-Z1fKYTE)                                                   |
 |---------------------|--------------------------------------------------------------------------------------------------------|
 |`📄 communication.js`|                                                                                                        |
 
@@ -41,11 +41,6 @@ Hello
 <span id="f-Z1fKYTE">Date</span>[^](#Z1fKYTE) - "communication.js" L22
 ```javascript
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
-```
-
-<span id="f-ZX8bjn">now.getDate</span>[^](#ZX8bjn) - "communication.js" L21
-```javascript
-        startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
 ```
 
 <br/>
