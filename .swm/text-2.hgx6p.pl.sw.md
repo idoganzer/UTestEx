@@ -1,12 +1,12 @@
 ---
 id: hgx6p
-name: text []
+name: text [] 2
 file_version: 1.0.2
 app_version: 0.8.8-0
 ---
 
 <!-- Steps - Do not remove this comment -->
-1. [ghjkg [hello]](ghjkg-hello.tkloe.sw.md)]
+1. [[] hello](hello.tkloe.sw.md)
 2. [This is text](this-is-text.ltl9l.sw.md)
 
 
