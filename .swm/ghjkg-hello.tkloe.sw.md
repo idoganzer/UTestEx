@@ -1,6 +1,6 @@
 ---
 id: tkloe
-name: ghjkg [hello]
+name: "[ghjkg] hello"
 file_version: 1.0.2
 app_version: 0.8.8-0
 file_blobs:
