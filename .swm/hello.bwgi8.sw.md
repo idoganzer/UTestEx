@@ -31,7 +31,7 @@ bla bla
 
 <br/>
 
-Hi
+Hi BLAAA `now.getDate`[<sup id="Zl4pNC">↓</sup>](#f-Zl4pNC) ooo
 
 <br/>
 
@@ -41,6 +41,11 @@ Hi
 <span id="f-ZCHeoT">Date</span>[^](#ZCHeoT) - "communication.js" L18
 ```javascript
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
+```
+
+<span id="f-Zl4pNC">now.getDate</span>[^](#Zl4pNC) - "communication.js" L17
+```javascript
+        startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
 ```
 
 <br/>
