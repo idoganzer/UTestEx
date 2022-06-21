@@ -4,8 +4,8 @@
  * @param path The API path
  * @return {string} A request string
  */
-const createBaseString =
-    (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+const createBaseNum =
+    (obj, path) => obj.URL + path +  '?apikef=' + obj.key;
 
 /**
  * Returns two dates separated by the range indicated by the range param
