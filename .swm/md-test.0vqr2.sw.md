@@ -13,12 +13,13 @@ more text
 
 more **text** 2
 
-
-
-
 Hello
 
 ## Heading 2
+
+bla bla
+
+THis is test
 
 <br/>
 
@@ -39,17 +40,47 @@ THis is text `getDate`[<sup id="Z1GAwHi">↓</sup>](#f-Z1GAwHi) bla
 
 <br/>
 
+Hello
+
+<br/>
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 4       * @param path The API path
+⬜ 5       * @return {string} A request string
+⬜ 6       */
+🟩 7      const createBaseString =
+🟩 8          (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+🟩 9      
+⬜ 10     /**
+⬜ 11      * Returns two dates separated by the range indicated by the range param
+⬜ 12      * @param range
+```
+
+<br/>
 
 
 
-bla bla
 
 ## Heading 22
 
-THis is test
+<br/>
 
-
-
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 8          (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+⬜ 9      
+⬜ 10     /**
+🟩 11      * Returns two dates separated by the range indicated by the range param
+🟩 12      * @param range
+🟩 13      * @return {[string, string]}
+🟩 14      */
+⬜ 15     ghjkbgjk
+⬜ 16     gbtdb
+⬜ 17     gtdb
+```
 
 <br/>
 
