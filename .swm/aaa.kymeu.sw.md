@@ -11,7 +11,7 @@ Bla bla
 
 <br/>
 
-Hello `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx) Hi bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn)
+Hello `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx) Hi bla
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
