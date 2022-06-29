@@ -23,9 +23,22 @@ This is a comment on the first hunk
 
 <br/>
 
-bla [THis_is_test](this_is_test.7rmgz.sw.md) bbb
+bla \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\] bbb
 
 *   `end.getDate`[<sup id="Z13m6xc">↓</sup>](#f-Z13m6xc) fregvr
+    
+*   gfegbvte
+    
+    *   vfevbfebgtbg bla bal
+        
+
+frere vfdsvd cscf
+
+bla \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\] bbb
+
+bbb \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\] fghjghj fghjghj
+
+*   `end.getDate`[<sup id="Z13m6xc">↓</sup>](#f-Z13m6xc) fregvr bb \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\] fghjghj fghjghj
     
 *   gfegbvte
     
@@ -34,7 +47,23 @@ bla [THis_is_test](this_is_test.7rmgz.sw.md) bbb
 
 `📄 UTestExDB.sql`
 
-bbb [THis_is_test](this_is_test.7rmgz.sw.md) fghjghj fghjghj
+> hjklhjklhjk ghjkgjhkl
+> 
+> *   vbhfjks
+>     
+> *   vbdfbvfds
+>     
+
+bbb \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\] fghjghj fghjghj
+
+> hjklhjklhjk ghjkgjhkl
+> 
+> *   vbhfjks
+>     
+> *   vbdfbvfds `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)
+>     
+
+bbb \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\] fghjghj fghjghj
 
 > hjklhjklhjk ghjkgjhkl
 > 
@@ -43,80 +72,22 @@ bbb [THis_is_test](this_is_test.7rmgz.sw.md) fghjghj fghjghj
 > *   vbdfbvfds
 >     
 
-bbb [THis_is_test](this_is_test.7rmgz.sw.md) fghjghj fghjghj
+bbb \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\] fghjghj fghjghj
 
 > hjklhjklhjk ghjkgjhkl
 > 
 > *   vbhfjks
 >     
 > *   vbdfbvfds `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)
->
-
-<br/>
-
-| | |
-|---|---|
-| | |
-
-<br/>
-
-bbb [THis_is_test](this_is_test.7rmgz.sw.md) fghjghj fghjghj 
-
- > hjklhjklhjk ghjkgjhkl
-> 
-> *   vbhfjks
 >     
-> *   vbdfbvfds
-> 
 
- bbb [THis_is_test](this_is_test.7rmgz.sw.md) fghjghj fghjghj 
+ccc \[\[sym-link:(1e8e77cc-b119-4cf0-8571-4f87a21b294c)THis\_is\_test\]\]
 
- > hjklhjklhjk ghjkgjhkl
-> 
-> *   vbhfjks
->     
-> *   vbdfbvfds `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)
-> 
+BLAAA
 
- ccc [THis_is_test](this_is_test.7rmgz.sw.md) 
+Hunk Sandwich
 
- 
- 
-
- 
- 
-
- 
- 
-
- 
- 
-
- BLAAA 
-
- Hunk Sandwich 
-
- `Hello` `GetUserToken`[<sup id="Z2vvkFN">↓</sup>](#f-Z2vvkFN)
-
-<br/>
-
-`end.getDate`[<sup id="Z13m6xc">↓</sup>](#f-Z13m6xc)
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 communication.js
-```javascript
-⬜ 18     gtd
-⬜ 19     shyjyrwhyrwt
-⬜ 20         let now = new Date(),
-🟩 21             startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
-🟩 22             end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
-🟩 23             endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
-🟩 24         return [startString,endString]
-⬜ 25     };
-⬜ 26     
-⬜ 27     /**
-```
-
-<br/>
+`Hello` `GetUserToken`[<sup id="Z2vvkFN">↓</sup>](#f-Z2vvkFN)
 
 guhiguhi
 
@@ -132,13 +103,75 @@ fhjkghjk
 
 ghjklhjk
 
-
-
-
 hjkljkl;
 
+gferdgvfr
+
+g
+
+fg
+
+vfsgvfdv
+
+gvf
+
+dvb
+
+fd
+
+bvf
+
+db
+
+fdb
+
+f
+
+bfgd
+
+bfd
+
+b
+
+fd
+
+bfd
+
+b
+
+fdb
+
+f
+
+db
+
+fdbsdf
+
+bfd
+
+vfdv
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2Fls4DA2fLasmQuEbT4ipw%2F3437a39b-fac6-4d46-966d-cd010adeb7ba.jpeg?alt=media&token=387f91ba-a6dc-4ca0-9ce1-c7617d1e3f10" style="width:'50%'"/></div>
+
+<br/>
+
+gfdsgsg /
 
 
+
+
+![null](https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2Fls4DA2fLasmQuEbT4ipw%2Fca14cc14-68d4-4519-8d84-e78cd3831b2c.gif?alt=media&token=eee8ba2b-035f-407c-808b-6a02d20de399)
+
+
+
+
+db
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2Fls4DA2fLasmQuEbT4ipw%2Ff7db8ec6-6878-416c-80b2-310af8af99f0.png?alt=media&token=659c8c24-1e6f-47b2-92b4-a8c30dca14df" style="width:'50%'"/></div>
 
 <br/>
 
