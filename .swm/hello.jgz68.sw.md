@@ -11,7 +11,7 @@ bla
 
 <br/>
 
-BLa `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn)
+BLa `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) hello `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn)
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
@@ -30,7 +30,39 @@ BLa `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn)
 
 <br/>
 
-fvevfe `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm)
+*   fvevfe `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm)
+    
+*   Hello
+    
+*   bla
+    
+*
+
+<br/>
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 4       * @param path The API path
+⬜ 5       * @return {string} A request string
+⬜ 6       */
+🟩 7      const createBaseString =
+🟩 8          (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+⬜ 9      
+⬜ 10     /**
+⬜ 11      * Returns two dates separated by the range indicated by the range param
+```
+
+<br/>
+
+
+
+
+> bla bla [THis_is_test](this_is_test.7rmgz.sw.md)
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/repositories%2Fls4DA2fLasmQuEbT4ipw%2F0477e544-e0a4-45a2-9fef-0beaff1ab255.png?alt=media&token=7264bf17-828c-4bcb-aa33-78087f88090c" style="width:'50%'"/></div>
 
 <br/>
 
