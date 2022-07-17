@@ -8,7 +8,8 @@ app_version: 0.9.2-0
 <!-- Steps - Do not remove this comment -->
 1. [MD link edited](https://raw.githubusercontent.com/chvancooten/follina.py/main/README.md)
 2. [MD link](https://raw.githubusercontent.com/chvancooten/follina.py/main/README.md)
-3. [🧰 Adding a New CLI Command in { Project Name }](adding-a-new-cli-command-in-project-name.1i9p6.sw.md)
+3. [Ido test](ido-test.8zjy6.pl.sw.md)
+4. [🧰 Adding a New CLI Command in { Project Name }](adding-a-new-cli-command-in-project-name.1i9p6.sw.md)
 
 
 <br/>
