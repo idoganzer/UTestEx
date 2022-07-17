@@ -2,11 +2,11 @@
 id: vor43
 name: Playlist for flows
 file_version: 1.0.2
-app_version: 0.8.8-0
+app_version: 0.9.2-0
 ---
 
 <!-- Steps - Do not remove this comment -->
-1. [youtube](https://www.youtube.com/watch?v=DcJFdCmN98s&list=RDDcJFdCmN98s&start_radio=1)
+1. [youtube edited](https://www.youtube.com/watch?v=DcJFdCmN98s&list=RDDcJFdCmN98s&start_radio=1)
 2. [This is text](this-is-text.ltl9l.sw.md)
 3. [MD link](https://raw.githubusercontent.com/chvancooten/follina.py/main/README.md)
 4. [🧰 Adding a New CLI Command in { Project Name }](adding-a-new-cli-command-in-project-name.1i9p6.sw.md)
