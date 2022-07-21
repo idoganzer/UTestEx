@@ -7,49 +7,42 @@ file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
-
-
-
 *   **ESBuild**
     
-
-```
 *   **What is it:** [Esbuild](https://esbuild.github.io/) is a blazing fast JavaScript bundler built with Golang. Esbuild is a next-generation JavaScript bundler aimed at improving build tool performance and ease of use. And some of its main features are:
-  
-  *   Extreme speed without needing a cache
-      
-  *   ES6 and CommonJS modules
-      
-  *   Tree shaking of ES6 modules
-      
-  *   An [API](https://esbuild.github.io/api/) for JavaScript and Go
-      
-  *   [TypeScript](https://esbuild.github.io/content-types/#typescript) and [JSX](https://esbuild.github.io/content-types/#jsx) syntax
-      
-  *   [Source maps](https://esbuild.github.io/api/#sourcemap)
-      
-  *   [Minification](https://esbuild.github.io/api/#minify)
-      
-  *   [Plugins](https://esbuild.github.io/plugins/)
-      
-*   **Docs link:** [https://esbuild.github.io/](https://esbuild.github.io/) and for cloud functions: [https://firebase.google.com/docs/web/module-bundling#using\_firebase\_with\_esbuild](https://firebase.google.com/docs/web/module-bundling#using_firebase_with_esbuild) .
-  
-*   **Where:** In every Firebase functions codebase. For example, here is the config for the : `📄 cloud/github-app/esbuild.config.js`
-  
-```
+    
+    *   Extreme speed without needing a cache
+        
+    *   ES6 and CommonJS modules
+        
+    *   Tree shaking of ES6 modules
+        
+    *   An [API](https://esbuild.github.io/api/) for JavaScript and Go
+        
+    *   [TypeScript](https://esbuild.github.io/content-types/#typescript) and [JSX](https://esbuild.github.io/content-types/#jsx) syntax
+        
+    *   [Source maps](https://esbuild.github.io/api/#sourcemap)
+        
+    *   [Minification](https://esbuild.github.io/api/#minify)
+        
+    *   [Plugins](https://esbuild.github.io/plugins/)
+        
+    *   **Docs link:** [https://esbuild.github.io/](https://esbuild.github.io/) and for cloud functions: [https://firebase.google.com/docs/web/module-bundling#using\_firebase\_with\_esbuild](https://firebase.google.com/docs/web/module-bundling#using_firebase_with_esbuild) .
+        
+    *   **Where:** In every Firebase functions codebase. For example, here is the config for the :
+        
 
 *   **Webpack**
     
 
-```
 *   **What is it:** Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
-   
-*   **Docs Link:** [https://webpack.js.org/guides/getting-started/](https://webpack.js.org/guides/getting-started/) As the code bundling for the CLI is a little more tricky, We have a dedicated doc for it: [CLI Bundling](cli-bundling.YK0XgTEWy1nsYZxKALDB.sw.md)
-   
-*   **Where:** in our Webapp and in Our CLI. You can find the configs over here: `📄 src/cli/cli-webpack.config.js` and `📄 src/app/webpack.config.js` .
-   
-*   **NOTE:** in the near future, we might be migrating to Vite, removing Webpack from our webapp entirely. This doc should be updated when it happens. 
-```
+    
+    *   **Docs Link:** [https://webpack.js.org/guides/getting-started/](https://webpack.js.org/guides/getting-started/) As the code bundling for the CLI is a little more tricky, We have a dedicated doc for it:
+        
+    *   **Where:** in our Webapp and in Our CLI. You can find the configs over here:
+        
+*   **NOTE:** in the near future, we might be migrating to Vite, removing Webpack from our webapp entirely. This doc should be updated when it happens.
+    
 
 # Env variables
 
