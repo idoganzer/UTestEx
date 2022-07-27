@@ -24,6 +24,11 @@ public class Connection implements IConnection
             StandardServiceRegistry standardServiceRegistry = sb.build();                   
             sessionFactory = cfg.buildSessionFactory(standardServiceRegistry);              
         } 
+	
+	
+	
+	
+	
         catch (Throwable th) 
         {
                 System.err.println("SessionFactory creation failed: " + th);
