@@ -11,7 +11,7 @@ ghjkvhjk `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm) \`
 
 <br/>
 
-cdsvds vdsv `📄 UTestExDB.sql`
+cdsvcghds vdsv `📄 UTestExDB.sql`
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
@@ -30,6 +30,43 @@ cdsvds vdsv `📄 UTestExDB.sql`
 <br/>
 
 `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx) vfev
+
+hello
+
+
+
+
+<br/>
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 25     };
+⬜ 26     
+⬜ 27     /**
+🟩 28      * getDataByType Takes and returns the results of fetching a specific API route
+🟩 29      * @param type An API route
+🟩 30      * @param range A parameter for the API call
+🟩 31      * @return {Promise<any>}
+⬜ 32      */
+⬜ 33     export const getDataByType = async (type, range) => {
+⬜ 34         const response = await fetch(pageDispatch[type](apiConf, range));
+```
+
+<br/>
+
+Hello
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 31      * @return {Promise<any>}
+⬜ 32      */
+⬜ 33     export const getDataByType = async (type, range) => {
+🟩 34         const response = await fetch(pageDispatch[type](apiConf, range));
+🟩 35         return [{[type] : await response.json()}]
+⬜ 36     };
+⬜ 37     
+```
 
 <br/>
 
