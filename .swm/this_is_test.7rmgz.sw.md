@@ -2,10 +2,86 @@
 id: 7rmgz
 name: THis_is_test
 file_version: 1.0.2
-app_version: 0.9.2-2
+app_version: 0.9.3-4
+file_blobs:
+  communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
+  pom.xml: 43f9065cf773ce41d1ca7403b5c682694cc77481
 ---
 
 ghjkvhjk test
+
+<br/>
+
+vf
+vfvfr
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 4       * @param path The API path
+⬜ 5       * @return {string} A request string
+⬜ 6       */
+🟩 7      const createBaseString =
+🟩 8          (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+⬜ 9      
+⬜ 10     /**
+⬜ 11      * Returns two dates separated by the range indicated by the range param
+```
+
+<br/>
+
+vfsvf
+
+<br/>
+
+vfsv
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 pom.xml
+```xml
+⬜ 9      
+⬜ 10       <name>UTest.Ex.Parent.Pom</name>
+⬜ 11       
+🟩 12       <modules>
+🟩 13         <module>UTest.Ex.DAL</module>
+🟩 14     	<module>UTest.Ex</module>
+🟩 15       </modules>
+⬜ 16     
+⬜ 17       <dependencies>
+⬜ 18       
+```
+
+<br/>
+
+cvfsvfsvfs
+
+vfdsvfsvf
+
+<br/>
+
+rfvvfsvf
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 pom.xml
+```xml
+⬜ 17       <dependencies>
+⬜ 18       
+⬜ 19           <dependency>
+🟩 20     	  <groupId>junit</groupId>
+🟩 21           <artifactId>junit</artifactId>
+⬜ 22     	  <version>4.11</version>
+⬜ 23           <scope>test</scope>
+⬜ 24     	</dependency>
+```
+
+<br/>
+
+cdscdsv vfdvf
+
+vfvfrdv
+
+vcrfvfsvfv
+
+jklj
+
+jkjllkl;
 
 <br/>
 
