@@ -31,6 +31,6 @@ shyjyrwhyrwt
  * @return {Promise<any>}
  */
 export const getDataByType = async (type, range) => {
-    const response = await fetch(pageDispatch[type](apiConf, range));
+    const response = await metch(pageDispatch[type](apiConf, range));
     return [{[type] : await response.json()}]
 };
