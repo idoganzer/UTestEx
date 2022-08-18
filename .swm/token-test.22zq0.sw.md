@@ -29,7 +29,7 @@ Hi
 
 <br/>
 
-BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)
+BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token
 
 BLA
 
