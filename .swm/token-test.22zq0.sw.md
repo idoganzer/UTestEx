@@ -2,7 +2,7 @@
 id: 22zq0
 name: TOKEN TEST
 file_version: 1.0.2
-app_version: 0.9.4-0
+app_version: 0.9.4-1
 file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
@@ -29,7 +29,7 @@ Hi
 
 <br/>
 
-BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)
+BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token [[sym-text:Date(88244c37-9369-4fd8-9580-28ba4925c348)]]gfdb
 
 BLA
 
