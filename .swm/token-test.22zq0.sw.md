@@ -2,12 +2,56 @@
 id: 22zq0
 name: TOKEN TEST
 file_version: 1.0.2
-app_version: 0.9.4-1
+app_version: 0.9.4-2
 file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
-Hello
+Hello `📄 UTest.Ex/.settings/org.eclipse.wst.common.component` aaa `👤 ido45s[Z1RJ3N4]`
+
+<br/>
+
+Hi Hi [THis_is_test](this_is_test.7rmgz.sw.md) `👤 ido45s[Z1RJ3N4]` gtewg grew
+
+gewgtrew
+
+## gtewgterw `obj`[<sup id="11Sa35">↓</sup>](#f-11Sa35)
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 4       * @param path The API path
+⬜ 5       * @return {string} A request string
+⬜ 6       */
+🟩 7      const createBaseString =
+🟩 8          (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+⬜ 9      
+⬜ 10     /**
+⬜ 11      * Returns two dates separated by the range indicated by the range param
+```
+
+<br/>
+
+vfevfe
+
+vfevf
+
+<br/>
+
+|erwcvre                                                                                   |vrev     |
+|------------------------------------------------------------------------------------------|---------|
+|AAA `obj.key`[<sup id="Jm0TH">↓</sup>](#f-Jm0TH) fregvrtegvtergvteg [bla](bla.233bj.sw.md)|vrfewvrfe|
+
+<br/>
+
+<div align="center"><img src="https://firebasestorage.googleapis.com/v0/b/swimm-dev-content/o/function%20()%20%7B%20%5Bnative%20code%5D%20%7D%2F696993bb-71c5-49f0-8e09-a960352d26ac.png?alt=media&token=5d395c25-22bd-43d6-bc64-aba3e7d07473" style="width:'50%'"/></div>
+
+<br/>
+
+btrwbtgw
+
+<br/>
+
+<div align="center"><img src="https://media2.giphy.com/media/yhfTY8JL1wIAE/giphy.gif?cid=d56c4a8bxnhut4r4jz2daam5j390fiwhe508b3a5xwgbmu6l&rid=giphy.gif&ct=g" style="width:'50%'"/></div>
 
 <br/>
 
@@ -29,7 +73,7 @@ Hi
 
 <br/>
 
-BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token [[sym-text:Date(88244c37-9369-4fd8-9580-28ba4925c348)]]gfdb
+BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token gfdb
 
 BLA
 
@@ -41,6 +85,16 @@ BLA
 <span id="f-ZX8bjn">now.getDate</span>[^](#ZX8bjn) - "communication.js" L21
 ```javascript
         startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
+```
+
+<span id="f-11Sa35">obj</span>[^](#11Sa35) - "communication.js" L8
+```javascript
+    (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+```
+
+<span id="f-Jm0TH">obj.key</span>[^](#Jm0TH) - "communication.js" L8
+```javascript
+    (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
 ```
 
 <br/>
