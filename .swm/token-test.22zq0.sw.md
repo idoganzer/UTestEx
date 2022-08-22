@@ -33,11 +33,17 @@ gewgtrew
 
 vfevfe
 
-![images.png](https://www.parisbeacon.com/wp-content/uploads/2022/03/Spider-Man-No-Way-Home-traje-final.jpg)
+<br/>
 
-vfevf aaa
-fghjfgh
-fvghjmghj
+<div align="center"><img src="https://www.parisbeacon.com/wp-content/uploads/2022/03/Spider-Man-No-Way-Home-traje-final.jpg" style="width:'50%'"/></div>
+
+<br/>
+
+
+
+
+
+vfevf aaa fghjfgh fvghjmghj
 
 <br/>
 
