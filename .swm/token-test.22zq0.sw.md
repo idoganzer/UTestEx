@@ -2,7 +2,7 @@
 id: 22zq0
 name: TOKEN TEST
 file_version: 1.0.2
-app_version: 0.9.4-2
+app_version: 0.9.4-0
 file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
@@ -55,6 +55,22 @@ btrwbtgw
 
 <br/>
 
+BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token gfdb hello ghjkhjkl hjklh
+
+BLA
+
+```
+   
+   function(vfrvgd) {
+      bla = a;
+      vhfjkdvfkl;
+   }
+```
+
+bnm,bjkl
+
+<br/>
+
 Hi
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
@@ -73,9 +89,11 @@ Hi
 
 <br/>
 
-BLa bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn) one more token gfdb
+bghjkgbhjk
 
-BLA
+gvhjkgbhjk
+
+gbhjkhbjk
 
 <br/>
 
