@@ -2,16 +2,16 @@
 id: 7rmgz
 name: THis_is_test
 file_version: 1.0.2
-app_version: 0.9.2-2
+app_version: 0.9.4-6
 file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
-ghjkvhjk `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm) \`
+ghjkvhjk `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm)
 
 <br/>
 
-cdsvcghds vdsv `📄 UTestExDB.sql`
+cdsvcghds vdsv `📄 UTestExDB.sql` fhcjkrw ghjkghj
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
@@ -37,6 +37,25 @@ hello
 
 
 <br/>
+
+`📄 communication.js` ghjg
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 3       * @param obj The base request string
+⬜ 4       * @param path The API path
+⬜ 5       * @return {string} A request string
+🟩 6       */
+🟩 7      const createBaseString =
+🟩 8          (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+⬜ 9      
+⬜ 10     /**
+⬜ 11      * Returns two dates separated by the range indicated by the range param
+```
+
+<br/>
+
+
 
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
