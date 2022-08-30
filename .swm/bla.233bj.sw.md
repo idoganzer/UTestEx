@@ -38,7 +38,9 @@ The ret hjvhlr hjkl `AppTest`[<sup id="2dtWLp">↓</sup>](#f-2dtWLp)`getDataByTy
 
 hgfhejkrv vhefjklvhfjek vhefjklwvhefj
 
-Ido `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm)`📄 UTest.Ex/pom.xml`
+Ido `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm)`📄 UTest.Ex/src/test/java/Mail/test/AppTest.java`nhgfngh
+
+aaa `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)aaa `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)`getDate`[<sup id="Z5Qjxq">↓</sup>](#f-Z5Qjxq)`getDate`[<sup id="1uRSBr">↓</sup>](#f-1uRSBr) aaa `new`[<sup id="ZpmPmx">↓</sup>](#f-ZpmPmx)bbb
 
 <br/>
 
@@ -48,6 +50,11 @@ Ido `end`[<sup id="Z4LKlm">↓</sup>](#f-Z4LKlm)`📄 UTest.Ex/pom.xml`
 <span id="f-2dtWLp">AppTest</span>[^](#2dtWLp) - "UTest.Ex.DAL/src/test/java/foo/AppTest.java" L15
 ```java
 public class AppTest 
+```
+
+<span id="f-BVHzx">Date</span>[^](#BVHzx) - "communication.js" L20
+```javascript
+    let now = new Date(),
 ```
 
 <span id="f-Z4LKlm">end</span>[^](#Z4LKlm) - "communication.js" L22
@@ -60,9 +67,24 @@ public class AppTest
 export const getDataByType = async (type, range) => {
 ```
 
+<span id="f-1uRSBr">getDate</span>[^](#1uRSBr) - "communication.js" L23
+```javascript
+        endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
+```
+
+<span id="f-Z5Qjxq">getDate</span>[^](#Z5Qjxq) - "communication.js" L22
+```javascript
+        end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
+```
+
 <span id="f-iEObD">getFullYear</span>[^](#iEObD) - "communication.js" L21
 ```javascript
         startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
+```
+
+<span id="f-ZpmPmx">new</span>[^](#ZpmPmx) - "communication.js" L20
+```javascript
+    let now = new Date(),
 ```
 
 <br/>
