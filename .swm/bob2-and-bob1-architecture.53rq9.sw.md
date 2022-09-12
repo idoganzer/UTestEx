@@ -1,6 +1,6 @@
 ---
 id: 53rq9
-name: בוב1
+name: Bob2 and Bob1 Architecture
 file_version: 1.0.2
 app_version: 0.9.6-0
 ---
