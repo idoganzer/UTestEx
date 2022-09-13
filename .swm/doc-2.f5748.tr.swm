@@ -1,0 +1,156 @@
+{
+    "id": "f5748",
+    "name": "Doc 2",
+    "content": [
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "<h[1-3]",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "Use `SwText variant=\"headline1\"` instead of <h1> tag",
+            "docId": "kSKI7i0dSkO0WRyeiigG",
+            "creator": "Fishman"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "class=\"[^\"]*(headline[1-3]|system-(headline|subtitle|body)|subtitle-(S|L|XL)|body-(S|L|XS))",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "Use `SwText variant=\"VARIANT\"` instead of typography class",
+            "docId": "kSKI7i0dSkO0WRyeiigG",
+            "creator": "Fishman"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "<style scoped>",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "Add `lang=\"postcss\"` to the <style> tag",
+            "docId": "kSKI7i0dSkO0WRyeiigG",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "margin(-(left|top|right|bottom))*:.*px",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "Use spacing vars like:`var(--space-xs)` instead of px margin size",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "((border|background)-)?color: #",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "Use color vars like:`var(--text-color-link)` instead of Hex values",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "import.*'firebase-admin'",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "We import firebase-admin only on specific places, please verify before merge."
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "import.*swimm/core",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "We import from swimm/core only on specific needs, please verify before merge."
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "filesystem",
+                "pattern": {
+                    "globPattern": "**/*.js",
+                    "createdFiles": true
+                }
+            },
+            "description": "Should this file be .ts? add a new js file only if absolutely necessary",
+            "actionType": "ide"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "filesystem",
+                "pattern": {
+                    "globPattern": "**/{atoms,organisms}/*.vue",
+                    "createdFiles": true
+                }
+            },
+            "description": "Should this file be here? consider creating a module or adding it to swimm-ui",
+            "actionType": "ide",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "(?<!function) (deleteSWMDraft|getDraftsData|saveSwmDraft)\\(",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "Use the draft store for drafts actions instead of calling adapter actions.",
+            "docId": "Kfxsf",
+            "creator": "Ido"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "useRouteData",
+                    "type": "word-regex"
+                }
+            },
+            "actionType": "ide",
+            "description": "useRouteData() is not reactive, use useRoute() instead.",
+            "creator": "Talko"
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.9.5-0",
+        "file_blobs": {}
+    }
+}
