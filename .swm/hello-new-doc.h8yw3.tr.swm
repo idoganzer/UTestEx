@@ -1,0 +1,32 @@
+{
+    "id": "h8yw3",
+    "name": "Hello-new-doc",
+    "content": [
+        {
+            "type": "rule",
+            "rule": {
+                "type": "path",
+                "code": "file-modified",
+                "status": "modified",
+                "eventSymbol": "655ef902-df6c-432c-bd46-1861a5c17920"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://google.com",
+                "text": "https://google.com"
+            }
+        }
+    ],
+    "symbols": {
+        "655ef902-df6c-432c-bd46-1861a5c17920": {
+            "type": "path",
+            "text": "UTestExDB.sql",
+            "path": "UTestExDB.sql"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.7-1",
+        "file_blobs": {}
+    }
+}
