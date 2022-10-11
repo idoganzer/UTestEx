@@ -1,0 +1,26 @@
+{
+    "id": "xvf21",
+    "name": "vhgjkgvhj",
+    "content": [
+        {
+            "type": "trigger",
+            "eventSymbol": "c717733a-774d-4089-8db0-51d74cd29faf",
+            "triggerType": "modified",
+            "actionType": "ghcomment",
+            "actionURL": "gfhuk",
+            "text": "fghjk"
+        }
+    ],
+    "symbols": {
+        "c717733a-774d-4089-8db0-51d74cd29faf": {
+            "type": "path",
+            "text": "UTestExDB.sql",
+            "path": "UTestExDB.sql"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.6-0",
+        "file_blobs": {}
+    }
+}
