@@ -1,0 +1,32 @@
+{
+    "id": "bqs4l",
+    "name": "Ido test",
+    "content": [
+        {
+            "type": "rule",
+            "rule": {
+                "type": "path",
+                "code": "file-modified",
+                "status": "modified",
+                "eventSymbol": "8c543c3d-de59-4ab2-aaa1-06d434addfdd"
+            },
+            "action": {
+                "type": "ghcomment",
+                "url": "https://google.com",
+                "text": "Google"
+            }
+        }
+    ],
+    "symbols": {
+        "8c543c3d-de59-4ab2-aaa1-06d434addfdd": {
+            "type": "path",
+            "text": "README.md",
+            "path": "README.md"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.7-1",
+        "file_blobs": {}
+    }
+}
