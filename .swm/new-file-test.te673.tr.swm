@@ -1,0 +1,297 @@
+{
+    "id": "te673",
+    "name": "IDE Doc Hooks",
+    "content": [
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "<h[1-3]",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Use `SwText variant=\"headline1\"` instead of <h1> tag",
+            "docId": "kSKI7i0dSkO0WRyeiigG",
+            "creator": "Fishman"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "(?<=class=\"[^\"]*)(headline[1-3]|system-(headline|subtitle|body)|subtitle-(S|L|XL)|body-(S|L|XS))",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Use `SwText variant=\"VARIANT\"` instead of typography class",
+            "docId": "kSKI7i0dSkO0WRyeiigG",
+            "creator": "Fishman"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "<style scoped>",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Add `lang=\"postcss\"` to the <style> tag",
+            "docId": "kSKI7i0dSkO0WRyeiigG",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "(?<=margin(-(left|top|right|bottom))*:.*)px",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Use spacing vars like:`var(--space-xs)` instead of px margin size",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "((border|background)-)?color: #",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Use color vars like:`var(--text-color-link)` instead of Hex values",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "(?<=import.*)'firebase-admin'",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "We import firebase-admin only on specific places, please verify before merge."
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "import.*swimm/core",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "We import from swimm/core only on specific needs, please verify before merge."
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "filesystem",
+                "pattern": {
+                    "globPattern": "**/*.js",
+                    "createdFiles": true
+                }
+            },
+            "description": "Should this file be .ts? add a new js file only if absolutely necessary",
+            "actionType": "ide"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "filesystem",
+                "pattern": {
+                    "globPattern": "**/{atoms,organisms}/*.vue",
+                    "createdFiles": true
+                }
+            },
+            "description": "Should this file be here? consider creating a module or adding it to swimm-ui",
+            "actionType": "ide",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "(?<!function) (deleteSWMDraft|getDraftsData|saveSwmDraft)\\(",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Use the draft store for drafts actions instead of calling adapter actions.",
+            "docId": "Kfxsf",
+            "creator": "Ido"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "useRouteData",
+                    "type": "word-regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "useRouteData() is not reactive, use useRoute() instead.",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "<ImportMdExtensionHolder|assembleCompleteSWMContentFromMD\\(",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "docId": "fk8rs",
+            "creator": "Asaf"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "defineAsyncComponent\\(",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "docId": "rawp5"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "new AsyncCache",
+                    "type": "regex"
+                }
+            },
+            "actionType": "ide",
+            "docId": "xbjg1"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "(?<!import )Dexie",
+                    "type": "word-regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "docId": "9bde4"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "mixins:|computed:|methods:|created\\(\\)",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Use Composition API, we are moving away from the Options API.",
+            "docId": "kqrys",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "vuex",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "🍍 Use Pinia instead of Vuex.",
+            "docId": "04i3s",
+            "creator": "Talko"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "filesystem",
+                "pattern": {
+                    "globPattern": "**/tiptapEditor/extensions/*.*",
+                    "createdFiles": true
+                }
+            },
+            "actionType": "ide",
+            "docId": "6zmyl"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "<HelpModal",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "docId": "q25qn"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "<HelpTooltip",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "docId": "p8k1u"
+        },
+        {
+            "type": "trigger",
+            "trigger": {
+                "triggerType": "regex",
+                "pattern": {
+                    "pattern": "\\.\\.\\.mapActions\\('modals', .*'openModal'.*\\)",
+                    "type": "regex"
+                },
+                "changesScope": "lines"
+            },
+            "actionType": "ide",
+            "description": "Use the Modal component instead of the GlobalModal.",
+            "docId": "pSecbbz9rqXfPi7AssQ9"
+        }
+    ],
+    "symbols": {},
+    "file_version": "2.0.1",
+    "meta": {
+        "app_version": "0.9.5-0",
+        "file_blobs": {}
+    }
+}
