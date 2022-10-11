@@ -1,0 +1,26 @@
+{
+    "id": "s39ip",
+    "name": "Ido test",
+    "content": [
+        {
+            "type": "trigger",
+            "eventSymbol": "64fa78d4-b923-4de7-94ec-5458a7ede785",
+            "triggerType": "modified",
+            "actionType": "ghcomment",
+            "actionURL": "www.google.com",
+            "text": "Google link"
+        }
+    ],
+    "symbols": {
+        "64fa78d4-b923-4de7-94ec-5458a7ede785": {
+            "type": "path",
+            "text": "UTestExDB.sql",
+            "path": "UTestExDB.sql"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.6-0",
+        "file_blobs": {}
+    }
+}
