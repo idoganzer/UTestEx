@@ -1,0 +1,26 @@
+{
+    "id": "4eniu",
+    "name": "gyukg",
+    "content": [
+        {
+            "type": "trigger",
+            "eventSymbol": "adc80623-d25e-4a90-b847-920aea2cb47e",
+            "triggerType": "modified",
+            "actionType": "ghcomment",
+            "actionURL": "fyukg",
+            "text": "fgyukg"
+        }
+    ],
+    "symbols": {
+        "adc80623-d25e-4a90-b847-920aea2cb47e": {
+            "type": "path",
+            "text": "communication.js",
+            "path": "communication.js"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.6-0",
+        "file_blobs": {}
+    }
+}
