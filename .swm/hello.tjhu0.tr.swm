@@ -8,22 +8,7 @@
     "content": [
         {
             "type": "rule",
-            "name": "AAA2",
-            "rule": {
-                "type": "regex",
-                "pattern": "MyFunction2",
-                "regexType": "regex",
-                "changesScope": "lines"
-            },
-            "action": {
-                "type": "IdeCodeLens",
-                "docId": "tjhu0",
-                "creator": "ido43"
-            }
-        },
-        {
-            "type": "rule",
-            "name": "fghj",
+            "name": "fghj56",
             "rule": {
                 "type": "regex",
                 "pattern": "ghjk",
