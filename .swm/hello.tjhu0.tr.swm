@@ -20,6 +20,21 @@
                 "docId": "tjhu0",
                 "creator": "ido43"
             }
+        },
+        {
+            "type": "rule",
+            "name": "PPP",
+            "rule": {
+                "type": "regex",
+                "pattern": "ghjk",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "docId": "tjhu0",
+                "creator": "ido43"
+            }
         }
     ],
     "symbols": {},
