@@ -1,0 +1,29 @@
+{
+    "name": "asdfgh",
+    "meta": {
+        "app_version": "0.9.7-1",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "TTT2",
+            "rule": {
+                "type": "regex",
+                "pattern": "GGG",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "docId": "3owa0",
+                "creator": "ido43"
+            }
+        }
+    ],
+    "symbols": {},
+    "id": "x3t44",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
