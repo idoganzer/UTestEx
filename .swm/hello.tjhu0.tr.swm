@@ -8,15 +8,16 @@
     "content": [
         {
             "type": "rule",
-            "name": "AAA",
+            "name": "AAA2",
             "rule": {
                 "type": "regex",
-                "pattern": "MyFunction",
+                "pattern": "MyFunction2",
                 "regexType": "regex",
                 "changesScope": "lines"
             },
             "action": {
                 "type": "IdeCodeLens",
+                "docId": "tjhu0",
                 "creator": "ido43"
             }
         }
