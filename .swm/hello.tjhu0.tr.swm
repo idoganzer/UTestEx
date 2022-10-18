@@ -1,0 +1,28 @@
+{
+    "name": "Hello",
+    "meta": {
+        "app_version": "0.9.7-1",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "AAA",
+            "rule": {
+                "type": "regex",
+                "pattern": "MyFunction",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "creator": "ido43"
+            }
+        }
+    ],
+    "symbols": {},
+    "id": "tjhu0",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
