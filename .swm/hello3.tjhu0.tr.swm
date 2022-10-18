@@ -1,5 +1,5 @@
 {
-    "name": "Hello2",
+    "name": "Hello3",
     "meta": {
         "app_version": "0.9.7-1",
         "file_blobs": {},
@@ -12,6 +12,21 @@
             "rule": {
                 "type": "regex",
                 "pattern": "ghjk",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "docId": "tjhu0",
+                "creator": "ido43"
+            }
+        },
+        {
+            "type": "rule",
+            "name": "fghkj",
+            "rule": {
+                "type": "regex",
+                "pattern": "fhgjk",
                 "regexType": "regex",
                 "changesScope": "lines"
             },
