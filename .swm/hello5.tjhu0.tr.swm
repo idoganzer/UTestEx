@@ -1,0 +1,44 @@
+{
+    "name": "Hello5",
+    "meta": {
+        "app_version": "0.9.7-1",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "PPPQ",
+            "rule": {
+                "type": "regex",
+                "pattern": "ghjk",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "docId": "tjhu0",
+                "creator": "ido43"
+            }
+        },
+        {
+            "type": "rule",
+            "name": "fghkj4578",
+            "rule": {
+                "type": "regex",
+                "pattern": "fhgjk",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "docId": "tjhu0",
+                "creator": "ido43"
+            }
+        }
+    ],
+    "symbols": {},
+    "id": "tjhu0",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
