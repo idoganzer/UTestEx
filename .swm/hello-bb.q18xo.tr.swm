@@ -1,0 +1,29 @@
+{
+    "name": "Hello BB",
+    "meta": {
+        "app_version": "0.9.7-1",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "AAA",
+            "rule": {
+                "type": "regex",
+                "pattern": "MyFunction",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "docId": "q18xo",
+                "creator": "ido43"
+            }
+        }
+    ],
+    "symbols": {},
+    "id": "q18xo",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
