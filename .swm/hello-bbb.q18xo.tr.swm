@@ -8,7 +8,7 @@
     "content": [
         {
             "type": "rule",
-            "name": "AAA",
+            "name": "AAAA",
             "rule": {
                 "type": "regex",
                 "pattern": "MyFunction",
