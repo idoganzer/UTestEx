@@ -1,0 +1,29 @@
+{
+    "name": "BLA@2",
+    "meta": {
+        "app_version": "0.9.7-1",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "ghjk",
+            "rule": {
+                "type": "regex",
+                "pattern": "ghjk",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "IdeCodeLens",
+                "docId": "6rq3d",
+                "creator": "ido43"
+            }
+        }
+    ],
+    "symbols": {},
+    "id": "6rq3d",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
