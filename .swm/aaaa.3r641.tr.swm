@@ -20,6 +20,21 @@
                 "docId": "3r641",
                 "description": "How to add new ClassA"
             }
+        },
+        {
+            "type": "rule",
+            "name": "How to use MyClassgyuk",
+            "rule": {
+                "type": "regex",
+                "pattern": "new MyClass\\(",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "ideCodeLens",
+                "docId": "3r641",
+                "description": "✨ How to use MyClass"
+            }
         }
     ],
     "symbols": {},
