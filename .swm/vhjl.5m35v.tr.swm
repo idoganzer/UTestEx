@@ -1,0 +1,45 @@
+{
+    "name": "vhjl",
+    "meta": {
+        "app_version": "0.9.8-0",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "Use <MyHeader> component instead of header tags",
+            "rule": {
+                "type": "regex",
+                "pattern": "<h[1-4]",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "ideCodeLens",
+                "docId": "5m35v",
+                "description": "Use <MyHeader> component instead of <h1> tag"
+            }
+        },
+        {
+            "type": "rule",
+            "name": "How to add new ClassA",
+            "rule": {
+                "type": "regex",
+                "pattern": "extends ClassA",
+                "regexType": "regex",
+                "changesScope": "lines"
+            },
+            "action": {
+                "type": "ideCodeLens",
+                "docId": "5m35v",
+                "description": "How to add new ClassA"
+            }
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "5m35v",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
