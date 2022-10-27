@@ -1,0 +1,30 @@
+{
+    "name": "QQQ",
+    "meta": {
+        "app_version": "0.9.8-1",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "Suggest using myNewFunction instead of oldFunction",
+            "rule": {
+                "type": "regex",
+                "pattern": "oldFunction",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "action": {
+                "type": "ideCodeLens",
+                "docId": "abhwn",
+                "description": "⛔ Use myNewFunction instead of oldFunction"
+            }
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "abhwn",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
