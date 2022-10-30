@@ -1,0 +1,49 @@
+{
+    "name": "Using the BLA API API",
+    "meta": {
+        "app_version": "0.9.8-3",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "Suggest using myNewFunction instead of oldFunction",
+            "rule": {
+                "type": "regex",
+                "pattern": "oldFunction",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "wahfq",
+                    "description": "⛔ Use myNewFunction instead of oldFunction"
+                }
+            ]
+        },
+        {
+            "type": "rule",
+            "name": "How to add new ClassA",
+            "rule": {
+                "type": "regex",
+                "pattern": "extends ClassA",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "wahfq",
+                    "description": "How to add new ClassA"
+                }
+            ]
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "wahfq",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
