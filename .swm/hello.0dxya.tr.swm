@@ -1,0 +1,35 @@
+{
+    "id": "0dxya",
+    "name": "Hello",
+    "content": [
+        {
+            "type": "rule",
+            "rule": {
+                "type": "path",
+                "code": "file-modified",
+                "status": "modified",
+                "eventSymbol": "851ba0c7-e0ad-4676-92ee-b63a02f8c313"
+            },
+            "actions": [
+                {
+                    "type": "ghcomment",
+                    "url": "https://google.com",
+                    "text": "GOOOOGLE"
+                }
+            ]
+        }
+    ],
+    "symbols": {
+        "851ba0c7-e0ad-4676-92ee-b63a02f8c313": {
+            "type": "path",
+            "text": "README.md",
+            "path": "README.md"
+        }
+    },
+    "file_version": "2.0.3",
+    "meta": {
+        "app_version": "0.9.8-3",
+        "file_blobs": {}
+    },
+    "path": ".swm"
+}
