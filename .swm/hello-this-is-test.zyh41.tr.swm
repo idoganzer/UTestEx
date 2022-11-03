@@ -20,11 +20,45 @@
                     "type": "ideCodeLens",
                     "docId": "zyh41",
                     "description": "⛔ Use myNewFunction instead of oldFunction"
+                }
+            ]
+        },
+        {
+            "type": "rule",
+            "name": "Use <MyHeader> component instead of header tags",
+            "rule": {
+                "type": "regex",
+                "pattern": "<h[1-4]",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "zyh41",
+                    "description": "Use <MyHeader> component instead of <h1> tag"
                 },
                 {
                     "type": "ghreview",
-                    "text": "(Doc Hook): ⛔ Use myNewFunction instead of oldFunction",
+                    "text": "(Doc Hook): Use <MyHeader> component instead of <h1> tag",
                     "url": "http://localhost:5000/repos/ls4DA2fLasmQuEbT4ipw/docs/zyh41"
+                }
+            ]
+        },
+        {
+            "type": "rule",
+            "name": "How to add new ClassA",
+            "rule": {
+                "type": "regex",
+                "pattern": "extends ClassA",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "zyh41",
+                    "description": "How to add new ClassA"
                 }
             ]
         }
