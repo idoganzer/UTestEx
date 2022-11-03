@@ -1,0 +1,37 @@
+{
+    "name": "Hello this is test",
+    "meta": {
+        "app_version": "0.9.8-4",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "Suggest using myNewFunction instead of oldFunction",
+            "rule": {
+                "type": "regex",
+                "pattern": "oldFunction",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "zyh41",
+                    "description": "⛔ Use myNewFunction instead of oldFunction"
+                },
+                {
+                    "type": "ghreview",
+                    "text": "(Doc Hook): ⛔ Use myNewFunction instead of oldFunction",
+                    "url": "http://localhost:5000/repos/ls4DA2fLasmQuEbT4ipw/docs/zyh41"
+                }
+            ]
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "zyh41",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
