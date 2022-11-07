@@ -1,0 +1,32 @@
+{
+    "name": "FrontEnd Best Practices",
+    "meta": {
+        "app_version": "0.9.9-0",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "Use <Header> component instead of header tags",
+            "rule": {
+                "type": "regex",
+                "pattern": "<h[1-4]",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "43m1w",
+                    "description": "🇭 Use <MyHeader> component instead of <h1> tag"
+                }
+            ]
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "43m1w",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
