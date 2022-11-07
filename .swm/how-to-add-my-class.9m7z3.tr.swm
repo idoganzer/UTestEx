@@ -1,0 +1,32 @@
+{
+    "name": "How to Add My class",
+    "meta": {
+        "app_version": "0.9.9-0",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "How to add new MyClass",
+            "rule": {
+                "type": "regex",
+                "pattern": "extends ClassA",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "9m7z3",
+                    "description": "ℹ️ How to add new ClassA"
+                }
+            ]
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "9m7z3",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
