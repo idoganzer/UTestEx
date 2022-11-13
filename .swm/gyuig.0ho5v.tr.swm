@@ -1,0 +1,37 @@
+{
+    "name": "gyuig",
+    "meta": {
+        "app_version": "0.9.9-6",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "Use <MyHeader> component instead of header tags",
+            "rule": {
+                "type": "regex",
+                "pattern": "<h[1-4]",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "0ho5v",
+                    "description": "🇭 Use <MyHeader> component instead of <h1> tag"
+                },
+                {
+                    "type": "ghreview",
+                    "text": "\\(Doc&nbsp;Hook\\):&nbsp;🇭&nbsp;Use&nbsp;<MyHeader\\>&nbsp;component&nbsp;instead&nbsp;of&nbsp;<h1\\>&nbsp;tag",
+                    "url": "http://localhost:5000/repos/ls4DA2fLasmQuEbT4ipw/docs/0ho5v"
+                }
+            ]
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "0ho5v",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
