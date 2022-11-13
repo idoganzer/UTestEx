@@ -1,0 +1,37 @@
+{
+    "name": "THisi sinhdjeb",
+    "meta": {
+        "app_version": "0.9.9-0",
+        "file_blobs": {},
+        "cross_repo_file_blobs": {}
+    },
+    "content": [
+        {
+            "type": "rule",
+            "name": "Use <MyHeader> component instead of header tags",
+            "rule": {
+                "type": "regex",
+                "pattern": "<h[1-4]",
+                "regexType": "regex",
+                "applyOnChanges": "lineChanged"
+            },
+            "actions": [
+                {
+                    "type": "ideCodeLens",
+                    "docId": "3mqhl",
+                    "description": "🇭 Use <MyHeader> component instead of <h1> tag"
+                },
+                {
+                    "type": "ghreview",
+                    "text": "\\(Doc Hook\\): 🇭 Use \\<MyHeader\\> component instead of \\<h1\\> tag",
+                    "url": "http://localhost:5000/repos/ls4DA2fLasmQuEbT4ipw/docs/3mqhl"
+                }
+            ]
+        }
+    ],
+    "symbols": {},
+    "path": ".swm",
+    "id": "3mqhl",
+    "type": "rule",
+    "file_version": "2.0.3"
+}
