@@ -20,6 +20,11 @@
                     "type": "ideCodeLens",
                     "docId": "ozsqu",
                     "description": "⛔ Use myNewFunction instead of oldFunction"
+                },
+                {
+                    "type": "ghreview",
+                    "text": "\\(Doc&nbsp;Hook\\):&nbsp;⛔&nbsp;Use&nbsp;myNewFunction&nbsp;instead&nbsp;of&nbsp;oldFunction",
+                    "url": "http://localhost:5000/repos/ls4DA2fLasmQuEbT4ipw/docs/ozsqu"
                 }
             ]
         }
