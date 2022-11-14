@@ -34,9 +34,6 @@ This is test
 
 Hello `📄 UTest.Ex.DAL/.classpath`bla
 
-
-
-
 <br/>
 
 BLa
