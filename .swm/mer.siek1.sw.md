@@ -11,17 +11,17 @@ fhgjkghj
 
 <!--MERMAID {width:100}-->
 ```mermaid
-flowchart LR
-    id1(This is the text in the box)
+  flowchart LR
+    id1(This is the text in the box)
 ```
-<!--MCONTENT {content: flowchart LR  
-id1(This is the text in the box)  
+<!--MCONTENT {content:   flowchart LR
+    id1(This is the text in the box)
 
 } --->
 
 <br/>
 
-hgjkhgjklhjkhhhh hjkhjk ggg
+hgjkhgjklhjkhhhh hjkhjk ggghhh
 
 
 
