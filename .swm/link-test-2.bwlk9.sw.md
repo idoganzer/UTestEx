@@ -7,7 +7,7 @@ app_version: 0.10.0-0
 
 AAA BBB
 
-ffff ffff fff [gggg](http://localhost:5001/workspaces/4wRPMEENPa9IgldGS6be/repos/ls4DA2fLasmQuEbT4ipw/docs/9xnjn) asdfghj
+ffff ffff fff [Link test](link-test.9xnjn.sw.md) asdfghj aaa
 
 <br/>
 
