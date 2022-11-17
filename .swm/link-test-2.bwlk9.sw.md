@@ -5,7 +5,7 @@ file_version: 1.0.2
 app_version: 0.10.0-0
 ---
 
-AAA BBB [Link test](link-test.9xnjn.sw.md) dDd
+AAA BBB
 
 ffff ffff fff gggg asdfghj
 
