@@ -21,15 +21,15 @@ test
 
 
 -  Hello
--  <img src="attack-report.png" width="900" height="500">
+-  ![alt text](security-report.png)
 -  Bye
 
 
 > Hello
-> <img src="attack-report.png" width="900" height="500">
+> ![alt text](security-report.png)
 
 |aaa|bbb|
 |---|---|
-|Bla|<img src="attack-report.png" width="900" height="500">|
+|Bla|![alt text](security-report.png)|
 
 
