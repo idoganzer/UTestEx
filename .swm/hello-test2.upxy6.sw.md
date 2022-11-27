@@ -1,6 +1,6 @@
 ---
 id: upxy6
-name: Hello test
+name: Hello test2
 file_version: 1.0.2
 app_version: 0.10.0-0
 file_blobs:
