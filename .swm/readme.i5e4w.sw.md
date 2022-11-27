@@ -3,6 +3,8 @@ id: i5e4w
 name: README
 file_version: 1.0.2
 app_version: 0.10.0-0
+file_blobs:
+  communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
 # UTestEx
@@ -24,6 +26,30 @@ bla this is text test test
 { Failed to load "zero-trust-report.png" }
 
 ### ATT&CK report
+
+
+
+
+<br/>
+
+ghjkghjkghj
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+⬜ 17     gtdb
+⬜ 18     gtd
+⬜ 19     shyjyrwhyrwt
+🟩 20         let now = new Date(),
+🟩 21             startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
+🟩 22             end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
+🟩 23             endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
+🟩 24         return [startString,endString]
+⬜ 25     };
+⬜ 26     
+⬜ 27     /**
+```
+
+<br/>
 
 { Failed to load "attack-report.png" }
 
