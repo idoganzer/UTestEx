@@ -11,10 +11,6 @@ Bla bla bla
 
 Hello
 
-/
-
-<br/>
-
 <br/>
 
 BLa
