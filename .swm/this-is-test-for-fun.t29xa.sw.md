@@ -13,7 +13,7 @@ I'm test and welcome to this doc. **NEW TEXT HERE**.
 
 <br/>
 
-This is a snippet, wow 😱
+This is a snippet, wow 😱**NEW TEXT HERE**.
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
