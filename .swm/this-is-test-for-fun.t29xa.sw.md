@@ -7,7 +7,7 @@ file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
-Hello!
+Hello! **THIS IS ADDED TEXT**.
 
 I'm test and welcome to this doc. **NEW TEXT HERE**.
 
