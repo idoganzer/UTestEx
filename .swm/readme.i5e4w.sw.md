@@ -2,7 +2,7 @@
 id: i5e4w
 name: README
 file_version: 1.0.2
-app_version: 0.10.0-0
+app_version: 0.10.1-2
 file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
@@ -11,11 +11,11 @@ file_blobs:
 
 ## Removed
 
-bla this is text test test
+bla this is text test test AAAA
 
 ### Map
 
-{ Failed to load "map-full.png" }
+{ Failed to load "map-full.png" } ghjkhji
 
 ### MD
 
@@ -26,9 +26,6 @@ bla this is text test test
 { Failed to load "zero-trust-report.png" }
 
 ### ATT&CK report
-
-
-
 
 <br/>
 
