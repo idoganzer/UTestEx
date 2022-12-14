@@ -2,9 +2,10 @@
 id: i5e4w
 name: README
 file_version: 1.0.2
-app_version: 0.10.0-0
+app_version: 0.10.1-4
 file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
+  UTestExDB.sql: 1df0ef74dfa0514e6af5fd1b4edbe1e75a3629d7
 ---
 
 # UTestEx
@@ -27,9 +28,6 @@ bla this is text test test
 
 ### ATT&CK report
 
-
-
-
 <br/>
 
 ghjkghjkghj
@@ -44,9 +42,13 @@ ghjkghjkghj
 🟩 22             end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
 🟩 23             endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
 🟩 24         return [startString,endString]
-⬜ 25     };
-⬜ 26     
-⬜ 27     /**
+🟩 25     };
+🟩 26     
+🟩 27     /**
+🟩 28      * getDataByType Takes and returns the results of fetching a specific API route
+⬜ 29      * @param type An API route
+⬜ 30      * @param range A parameter for the API call
+⬜ 31      * @return {Promise<any>}
 ```
 
 <br/>
@@ -67,6 +69,38 @@ ghjkghjkghj
 |aaa|bbb                                     |
 |---|----------------------------------------|
 |Bla|{ Failed to load "security-report.png" }|
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+🟩 7      const createBaseString =
+🟩 8          (obj, path) => obj.URL + path +  '?apikey=' + obj.key;
+```
+
+<br/>
+
+<br/>
+
+<br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 UTestExDB.sql
+```plsql
+🟩 9      /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+🟩 10     /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+🟩 11     /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+🟩 12     /*!40101 SET NAMES utf8 */;
+🟩 13     /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+🟩 14     /*!40103 SET TIME_ZONE='+00:00' */;
+```
 
 <br/>
 
