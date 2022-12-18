@@ -13,7 +13,7 @@ Bla
 
 <br/>
 
-Hi `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)
+Hi `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)ghjkghjkghj
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
@@ -32,7 +32,7 @@ Hi `Date`[<sup id="BVHzx">↓</sup>](#f-BVHzx)
 
 <br/>
 
-bla bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn)vhdfjk `getMonth`[<sup id="2sDu16">↓</sup>](#f-2sDu16)
+bla bla `now.getDate`[<sup id="ZX8bjn">↓</sup>](#f-ZX8bjn)vhdfjk `getMonth`[<sup id="2sDu16">↓</sup>](#f-2sDu16) ghklgjkl
 
 <br/>
 
