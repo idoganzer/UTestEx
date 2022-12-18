@@ -10,12 +10,12 @@ file_blobs:
 Hello
 
 BLaBLs `getMonth`<!--TOKEN::"communication.js":21:22:22:<code lang="javascript">        startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),</code>-->
+bla`endString`<!--TOKEN::"communication.js":23:1:1:<code lang="javascript">        endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());</code>-->
 bla
 
 <br/>
 
-AAA `Date`<!--TOKEN::"communication.js":20:9:9:<code lang="javascript">    let now = new Date(),</code>-->
-
+AAA `Date`
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
