@@ -11,10 +11,8 @@ bla
 
 <br/>
 
-<br/>
-
-Hello `Date`<!--TOKEN::"communication.js":20:9:9:<code lang="javascript">    let now = new Date(),</code>-->
-
+Hello `Date`hjkhjk `gtd`<!--TOKEN::"communication.js":18:0:0:<code lang="javascript">gtd</code>-->
+ghjk
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 communication.js
 ```javascript
