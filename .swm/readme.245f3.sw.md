@@ -11,7 +11,7 @@ file_blobs:
 
 ## Removed
 
-bla this is text test test
+bla this is text test test [[sym-mention:(f0d7fcf1-5886-4cd4-86d3-d559f6165186|vwnEk)ido721]] bla
 
 <br/>
 
