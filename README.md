@@ -7,7 +7,7 @@ test
 test
 
 ### Map
-<img src="map-full.png"  width="800" height="600">
+<img src="map-full.png"  width="900" height="600">
 
 ### MD
 
