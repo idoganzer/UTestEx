@@ -31,14 +31,14 @@ Hi
 <!--MERMAID {width:100}-->
 ```mermaid
 graph TD
-A[Christmas] -->|Get money| B(Go `now` shopping)
+A[Christmas] -->|Get money| B(Go `now.getDate` shopppppppping)
 B --> C{Let me think}
 C -->|One| D[Laptop `Date`]
 C -->|Two| E[iPhone]
 C -->|Three| F[fa:fa-car Car]
 ```
 <!--MCONTENT {content: graph TD<br/>
-A\[Christmas\] \-\-\>|Get money| B(Go `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/> shopping)<br/>
+A\[Christmas\] \-\-\>|Get money| B(Go `now.getDate`<swm-token data-swm-token=":communication.js:21:40:42:`        startString = now.getFullYear() + &quot;-&quot; + (now.getMonth() + 1) + &quot;-&quot; + (now.getDate()),`"/> shopppppppping)<br/>
 B \-\-\> C{Let me think}<br/>
 C \-\-\>|One| D\[Laptop `Date`<swm-token data-swm-token=":communication.js:20:9:9:`    let now = new Date(),`"/>\]<br/>
 C \-\-\>|Two| E\[iPhone\]<br/>
