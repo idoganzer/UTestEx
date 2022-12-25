@@ -28,23 +28,19 @@ Hi
 
 <br/>
 
-<br/>
-
 <!--MERMAID {width:100}-->
 ```mermaid
-graph TD
-A[Christmas] -->|Get money| B(Go now.getDate shopping)
-B --> C{Let me think}
-C -->|One| D[Laptop]
-C -->|Two| E[iPhone]
-C -->|Three| F[fa:fa-car now Car]
+sequenceDiagram
+Alice->>+John: Hello John, how now are you?
+Alice->>+John: John, can you hear me?
+John-->>-Alice: Hi Alice, I can hear you!
+John-->>-Alice: I feel great!
 ```
-<!--MCONTENT {content: graph TD<br/>
-A\[Christmas\] \-\-\>|Get money| B(Go `now.getDate`<swm-token data-swm-token=":communication.js:21:40:42:`        startString = now.getFullYear() + &quot;-&quot; + (now.getMonth() + 1) + &quot;-&quot; + (now.getDate()),`"/> shopping)<br/>
-B \-\-\> C{Let me think}<br/>
-C \-\-\>|One| D\[Laptop\]<br/>
-C \-\-\>|Two| E\[iPhone\]<br/>
-C \-\-\>|Three| F\[fa:fa-car `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/> Car\]<br/>} --->
+<!--MCONTENT {content: sequenceDiagram<br/>
+Alice->>+John: Hello John, how `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/> are you?<br/>
+Alice->>+John: John, can you hear me?<br/>
+John\-\-\>>-Alice: Hi Alice, I can hear you!<br/>
+John\-\-\>>-Alice: I feel great!<br/>} --->
 
 <br/>
 
