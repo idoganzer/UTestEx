@@ -35,7 +35,8 @@ A[Christmas] -->|Get money| B(Go `now`<swm-token data-swm-token=":communication.
 B --> C{Let me think}
 C -->|One| D[Laptop]
 C -->|Two| E[iPhone]
-C -->|Three| F[fa:fa-car Car]```
+C -->|Three| F[fa:fa-car Car]
+```
 <!--MCONTENT {content: graph TD<br/>
 A\[Christmas\] \-\-\>|Get money| B(Go `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/> shopping)<br/>
 B \-\-\> C{Let me think}<br/>
