@@ -30,15 +30,21 @@ Hi
 
 <!--MERMAID {width:100}-->
 ```mermaid
-pie title Pets adopted by volunteers
-"Dogs now" : 386
-"Cats" : 85
-"Rats" : 15
+stateDiagram-v2
+[\*] --> Still
+Still --> [\*]
+Still --> Moving now
+Moving --> Still
+Moving --> Crash
+Crash --> [\*]
 ```
-<!--MCONTENT {content: pie title Pets adopted by volunteers<br/>
-"Dogs `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/>" : 386<br/>
-"Cats" : 85<br/>
-"Rats" : 15<br/>} --->
+<!--MCONTENT {content: stateDiagram-v2<br/>
+\[\*\] \-\-\> Still<br/>
+Still \-\-\> \[\*\]<br/>
+Still \-\-\> Moving `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/><br/>
+Moving \-\-\> Still<br/>
+Moving \-\-\> Crash<br/>
+Crash \-\-\> \[\*\]<br/>} --->
 
 <br/>
 
