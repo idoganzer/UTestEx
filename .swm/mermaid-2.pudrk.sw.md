@@ -30,17 +30,15 @@ Hi
 
 <!--MERMAID {width:100}-->
 ```mermaid
-sequenceDiagram
-Alice->>+John: Hello John, how now are you?
-Alice->>+John: John, can you hear me?
-John-->>-Alice: Hi Alice, I can hear you!
-John-->>-Alice: I feel great!
+pie title Pets adopted by volunteers
+"Dogs now" : 386
+"Cats" : 85
+"Rats" : 15
 ```
-<!--MCONTENT {content: sequenceDiagram<br/>
-Alice->>+John: Hello John, how `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/> are you?<br/>
-Alice->>+John: John, can you hear me?<br/>
-John\-\-\>>-Alice: Hi Alice, I can hear you!<br/>
-John\-\-\>>-Alice: I feel great!<br/>} --->
+<!--MCONTENT {content: pie title Pets adopted by volunteers<br/>
+"Dogs `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/>" : 386<br/>
+"Cats" : 85<br/>
+"Rats" : 15<br/>} --->
 
 <br/>
 
