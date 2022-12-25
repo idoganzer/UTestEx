@@ -7,7 +7,7 @@ file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
-bla
+bla2
 
 <br/>
 
@@ -31,11 +31,11 @@ bla
 <!--MERMAID {width:100}-->
 ```mermaid
 graph TD
-    A[Christmas] -->|Get money| B(Go now shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
+A[Christmas] -->|Get money| B(Go now shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[fa:fa-car Car]
 ```
 <!--MCONTENT {content: graph TD<br/>
 A\[Christmas\] \-\-\>|Get money| B(Go `now`<swm-token data-swm-token=":communication.js:20:3:3:`    let now = new Date(),`"/> shopping)<br/>
