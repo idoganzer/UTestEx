@@ -3,11 +3,24 @@ id: s9w4h
 name: GBFDSHGFD
 file_version: 1.1.0
 app_version: 0.11.0
+file_blobs:
+  communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
 vfdsbfdgs
 
 <br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+🟩 20         let now = new Date(),
+🟩 21             startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
+🟩 22             end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
+🟩 23             endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
+🟩 24         return [startString,endString]
+```
 
 <br/>
 
@@ -17,15 +30,7 @@ graph TD
 
 
 
-
-
-
-
-A[Christmas] -->|Get money| B(Go shopping)
-
-
-
-
+A[Christmas] -->|Get money| B(Go `now.getDate` shopping)
 
 
 
@@ -35,19 +40,13 @@ C -->|One| D[Laptop]
 
 
 
-
-
-
 C -->|Two| E[iPhone]
 C -->|Three| F[fa:fa-car Car]
 
 
 
-
-
-
 ```
-<!--MCONTENT {content: "graph TD<br/>\n\n<br/>\n\n<br/>\n\n<br/>\n\nA\\[Christmas\\] \\-\\-\\>|Get money| B(Go shopping)\n\n<br/>\n\n<br/>\n\n<br/>\n\n<br/>\nB \\-\\-\\> C{Let me think}<br/>\nC \\-\\-\\>|One| D\\[Laptop\\]\n\n<br/>\n\n<br/>\n\n<br/>\nC \\-\\-\\>|Two| E\\[iPhone\\]<br/>\nC \\-\\-\\>|Three| F\\[fa:fa-car Car\\]\n\n<br/>\n\n<br/>\n\n<br/>"} --->
+<!--MCONTENT {content: "graph TD<br/>\n<br/>\n<br/>\n<br/>\nA\\[Christmas\\] \\-\\-\\>|Get money| B(Go `now.getDate`<swm-token data-swm-token=\":communication.js:21:40:42:`        startString = now.getFullYear() + &quot;-&quot; + (now.getMonth() + 1) + &quot;-&quot; + (now.getDate()),`\"/> shopping)<br/>\n<br/>\n<br/>\n<br/>\n<br/>\nB \\-\\-\\> C{Let me think}<br/>\nC \\-\\-\\>|One| D\\[Laptop\\]<br/>\n<br/>\n<br/>\n<br/>\nC \\-\\-\\>|Two| E\\[iPhone\\]<br/>\nC \\-\\-\\>|Three| F\\[fa:fa-car Car\\]<br/>\n<br/>\n<br/>\n<br/>"} --->
 
 <br/>
 
