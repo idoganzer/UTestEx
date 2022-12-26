@@ -31,11 +31,12 @@ bfdgb
 <!--MERMAID {width:100}-->
 ```mermaid
 sequenceDiagram
-Alice->>+John: Hello John, how are you?
+Alice->>+John: Hello John, how are you? `Date`
+
+
+
+
 Alice->>+John: John, can you `now.getDate` hear me?
-
-
-
 
 
 
@@ -45,12 +46,8 @@ John-->>-Alice: I feel great!
 
 
 
-
-
-
-
 ```
-<!--MCONTENT {content: "sequenceDiagram<br/>\nAlice->>+John: Hello John, how are you?<br/>\nAlice->>+John: John, can you `now.getDate`<swm-token data-swm-token=\":communication.js:21:40:42:`        startString = now.getFullYear() + &quot;-&quot; + (now.getMonth() + 1) + &quot;-&quot; + (now.getDate()),`\"/> hear me?\n\n<br/>\n\n<br/>\n\n<br/>\nJohn\\-\\-\\>>-Alice: Hi Alice, I can hear you!<br/>\nJohn\\-\\-\\>>-Alice: I feel great!\n\n<br/>\n\n<br/>\n\n<br/>\n\n<br/>"} --->
+<!--MCONTENT {content: "sequenceDiagram<br/>\nAlice->>+John: Hello John, how are you? `Date`<swm-token data-swm-token=\":communication.js:20:9:9:`    let now = new Date(),`\"/>\n\n<br/>\n\n<br/>\nAlice->>+John: John, can you `now.getDate`<swm-token data-swm-token=\":communication.js:21:40:42:`        startString = now.getFullYear() + &quot;-&quot; + (now.getMonth() + 1) + &quot;-&quot; + (now.getDate()),`\"/> hear me?<br/>\n<br/>\n<br/>\n<br/>\nJohn\\-\\-\\>>-Alice: Hi Alice, I can hear you!<br/>\nJohn\\-\\-\\>>-Alice: I feel great!<br/>\n<br/>\n<br/>\n<br/>\n<br/>"} --->
 
 <br/>
 
