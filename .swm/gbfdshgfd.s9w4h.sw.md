@@ -7,7 +7,7 @@ file_blobs:
   communication.js: b16b58bf69aba3077d45cb22c8414248196482f2
 ---
 
-vfdsbfdgs
+vfdsbfdgsghjk
 
 <br/>
 
@@ -40,9 +40,8 @@ C -->|One| D[Laptop]
 
 
 
+
 C -->|Two| E[iPhone]
-
-
 
 
 C -->|Three| F[fa:fa-car Car]
@@ -50,7 +49,7 @@ C -->|Three| F[fa:fa-car Car]
 
 
 ```
-<!--MCONTENT {content: "graph TD<br/>\n<br/>\n<br/>\n<br/>\nA\\[Christmas\\] \\-\\-\\>|Get money| B(Go `now.getDate`<swm-token data-swm-token=\":communication.js:21:40:42:`        startString = now.getFullYear() + &quot;-&quot; + (now.getMonth() + 1) + &quot;-&quot; + (now.getDate()),`\"/> shopping)<br/>\n<br/>\n<br/>\n<br/>\n<br/>\nB \\-\\-\\> C{Let me think}<br/>\nC \\-\\-\\>|One| D\\[Laptop\\]<br/>\n<br/>\n<br/>\n<br/>\nC \\-\\-\\>|Two| E\\[iPhone\\]\n\n<br/>\n\n<br/>\nC \\-\\-\\>|Three| F\\[fa:fa-car Car\\]<br/>\n<br/>\n<br/>\n<br/>"} --->
+<!--MCONTENT {content: "graph TD<br/>\n<br/>\n<br/>\n<br/>\nA\\[Christmas\\] \\-\\-\\>|Get money| B(Go `now.getDate`<swm-token data-swm-token=\":communication.js:21:40:42:`        startString = now.getFullYear() + &quot;-&quot; + (now.getMonth() + 1) + &quot;-&quot; + (now.getDate()),`\"/> shopping)<br/>\n<br/>\n<br/>\n<br/>\n<br/>\nB \\-\\-\\> C{Let me think}<br/>\nC \\-\\-\\>|One| D\\[Laptop\\]<br/>\n<br/>\n\n<br/>\n<br/>\nC \\-\\-\\>|Two| E\\[iPhone\\]<br/>\n<br/>\n<br/>\nC \\-\\-\\>|Three| F\\[fa:fa-car Car\\]<br/>\n<br/>\n<br/>\n<br/>"} --->
 
 <br/>
 
