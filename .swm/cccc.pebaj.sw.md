@@ -5,9 +5,7 @@ file_version: 1.1.0
 app_version: 0.10.2
 ---
 
-Bla
-
-<br/>
+Bla2
 
 <br/>
 
@@ -15,11 +13,25 @@ Bla
 ```mermaid
 
 ```
-<!--MCONTENT {content: <br/>} --->
+<!--MCONTENT {content: <br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>
+
+<br/>} --->
 
 <br/>
 
 END
+
+<br/>
 
 <br/>
 
