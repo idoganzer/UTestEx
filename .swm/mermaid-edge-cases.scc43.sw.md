@@ -28,46 +28,6 @@ Empty
 
 <br/>
 
-<!--MERMAID {width:100}-->
-```mermaid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-<!--MCONTENT {content: <br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>
-
-<br/>} --->
-
-<br/>
-
 Broken
 
 <br/>
