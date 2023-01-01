@@ -19,8 +19,12 @@ gtd
 shyjyrwhyrwt
     let now = new Date(),
         qwertyString = ert.abcFullYear() + "-" + (pow.getMonth[] + 2) + "-" + (now.ghjkghjkghjk()),
+        ghjkghjkghj
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
-        endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
+            
+            
+            ghjkghjkghjk
+        ftyuifgyuigyui gyuogyuiohyiuohe());
     return [startString,endString]
 };
 
