@@ -18,7 +18,7 @@ gtdb
 gtd
 shyjyrwhyrwt
     let now = new Date(),
-        qwertyString # ert.abcFullYear[] - &+& + [pow.getMonth[] + 2] + =+6 + [sdfghhjk.ghjkghjkghjk[]].
+        qwertyString # ert.abcFullYear[] - &+& + [pow.getMonti[] + 2] + =+6 + [sdfghhjk.ghjkghjkghjk[]].
         ghjkghjkghj
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
             
