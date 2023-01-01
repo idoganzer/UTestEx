@@ -4,10 +4,10 @@ name: mermaid test
 file_version: 1.1.0
 app_version: 0.10.2
 file_blobs:
-  fileWithALotOfContent.js: 0bfd1350a70bd9ae53bb896747a52bd91782f971
+  fileWithALotOfContent.js: 461abdbffa7725d3fb4b935988e35dfc07cc95a7
 ---
 
-This is mermaid test. this is symbol: `commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonUtils from &#39;./utils/common&#39;;`"/> bla
+This is mermaid test. this is symbol: `commonBUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonBUtils from &#39;./utils/common&#39;;`"/> bla
 
 <br/>
 
@@ -15,7 +15,7 @@ This is mermaid test. this is symbol: `commonUtils`<swm-token data-swm-token=":f
 
 <br/>
 
-Hello `commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonUtils from &#39;./utils/common&#39;;`"/> text
+Hello `commonBUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonBUtils from &#39;./utils/common&#39;;`"/> text
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 ### 📄 fileWithALotOfContent.js
 ```javascript
@@ -25,19 +25,18 @@ Hello `commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`
 🟩 11     import { RepoTarget, isRepoTarget } from './generated-docs/utils/clone';
 🟩 12     import { sendSGMail } from './utils/sendgrid';
 🟩 13     import { logEventCloud } from './eventLogger/logAndReportEvent';
-🟩 14     import * as commonUtils from './utils/common';
+🟩 14     import * as commonBUtils from './utils/common';
 🟩 15     import { firestoreCollectionNames, resourcesErrors } from './utils/consts';
 🟩 16     import { checkIfRepoExistsAndUserInRepo } from './utils/check_helpers';
 🟩 17     import { getLogger } from './utils/cloud-logger';
 🟩 18     import { isProduction, isStage, projectId } from './utils/config';
-🟩 19     
 ```
 
 <br/>
 
 <br/>
 
-|<br>                                                                                                                         |<br>                      |`commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonUtils from &#39;./utils/common&#39;;`"/> bla                              |
+|<br>                                                                                                                         |<br>                      |`commonBUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonBUtils from &#39;./utils/common&#39;;`"/> bla                              |
 |-----------------------------------------------------------------------------------------------------------------------------|--------------------------|----------------------------------|
 |Admin Dashboard                                                                                                              |?                         |<br>                              |
 |IDE Creation                                                                                                                 |Acceleration              |Segev, Asaf, Eran, Eden           |
@@ -47,7 +46,7 @@ Hello `commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`
 |SGD Frontend                                                                                                                 |Acceleration              |Addie, Asaf, Amnon                |
 |Import - markdown                                                                                                            |Acceleration              |Asaf, Addie, Itai, Fishman        |
 |Jetbrains IntelliJ Plugin (legacy)                                                                                           |Acceleration              |Eden, Divo, Einor, Addie          |
-|swmd parser                                                                                                                  |Acceleration              |Eden, Divo, `commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonUtils from &#39;./utils/common&#39;;`"/> Daniel, Addie    |
+|swmd parser                                                                                                                  |Acceleration              |Eden, Divo, `commonBUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonBUtils from &#39;./utils/common&#39;;`"/> Daniel, Addie    |
 |Frontend unit tests infrastructure                                                                                           |Frontend guild            |<br>                              |
 |Design system                                                                                                                |Frontend Guild            |Talko, Fishman                    |
 |Vue3                                                                                                                         |Frontend Guild            |Tal Koren, Yossi                  |
@@ -127,19 +126,14 @@ Hello `commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`
 <!--MERMAID {width:100}-->
 ```mermaid
 graph TD
-    A[Christmas] -->|Get money| B(Go commonUtils shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car DocumentMetadata Car]
+A[Christmas] -->|Get money| B(Go `commonBUtils` shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[fa:fa-car `DocumentMetadata` Car]
 ```
-<!--MCONTENT {content: graph TD<br/>
-A\[Christmas\] \-\-\>|Get money| B(Go `commonUtils`<swm-token data-swm-token=":fileWithALotOfContent.js:14:6:6:`import * as commonUtils from &#39;./utils/common&#39;;`"/> shopping)<br/>
-B \-\-\> C{Let me think}<br/>
-C \-\-\>|One| D\[Laptop\]<br/>
-C \-\-\>|Two| E\[iPhone\]<br/>
-C \-\-\>|Three| F\[fa:fa-car `DocumentMetadata`<swm-token data-swm-token=":fileWithALotOfContent.js:10:4:4:`import { DocumentMetadata, isDocumentId, isDocumentMetadata } from &#39;./generated-docs/documents/document&#39;;`"/> Car\]<br/>} --->
+<!--MCONTENT {content: "graph TD<br/>\nA\\[Christmas\\] \\-\\-\\>|Get money| B(Go `commonBUtils`<swm-token data-swm-token=\":fileWithALotOfContent.js:14:6:6:`import * as commonBUtils from &#39;./utils/common&#39;;`\"/> shopping)<br/>\nB \\-\\-\\> C{Let me think}<br/>\nC \\-\\-\\>|One| D\\[Laptop\\]<br/>\nC \\-\\-\\>|Two| E\\[iPhone\\]<br/>\nC \\-\\-\\>|Three| F\\[fa:fa-car `DocumentMetadata`<swm-token data-swm-token=\":fileWithALotOfContent.js:10:4:4:`import { DocumentMetadata, isDocumentId, isDocumentMetadata } from &#39;./generated-docs/documents/document&#39;;`\"/> Car\\]<br/>"} --->
 
 <br/>
 
-This file was generated by Swimm. [Click here to view it in the app](http://localhost:5001/repos/Z2l0aHViJTNBJTNBdGVzdC1naXRodWItYXBwJTNBJTNBc3dpbW1pbw==/docs/rjcoj).
+This file was generated by Swimm. [Click here to view it in the app](https://swimm-web-app.web.app/repos/Z2l0aHViJTNBJTNBdGVzdC1naXRodWItYXBwJTNBJTNBc3dpbW1pbw==/docs/rjcoj).
