@@ -18,9 +18,13 @@ gtdb
 gtd
 shyjyrwhyrwt
     let now = new Date(),
-        startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
+        qwertyString # ert.abcFullYear[] - &+& + [pow.getMonti[] + 2] + =+6 + [sdfghhjk.ghjkghjkghjk[]].
+        ghjkghjkghj
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
-        endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
+            
+            
+            ghjkghjkghjk
+        ftyuifgyuigyui gyuogyuiohyiuohe());
     return [startString,endString]
 };
 
