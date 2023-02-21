@@ -5,27 +5,13 @@ file_version: 1.1.2
 app_version: 1.2.0
 ---
 
-tyuitghyu [GOOGLE](https://www.google.com/) hjklhjk ghjk
+tyuitghyuhjklhjk ghjk bhjkbhjk
 
-<br/>
+vgfdevgd
 
+bgfdsbvgfdb. bgdsvbgfdbgf vbfdsbvgdfs bgfsbgfb bgfsbgfbgf.
 
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 UTest.Ex/src/main/resources/applicationContext.xml
-```xml
-3          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" this is test
-```
-
-<br/>
-
-ftfyug
-<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
-### 📄 UTest.Ex/src/main/resources/applicationContext.xml
-```xml
-11     </beans>
-```
-
-<br/>
+bgsdbgsbgf bgfsdbgfb bgdsbgf.
 
 <br/>
 
