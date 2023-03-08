@@ -3,6 +3,8 @@ id: y7k29
 title: AAA
 file_version: 1.1.2
 app_version: 1.3.0
+cross_repo_names:
+  fbapi4j: OY6VN6VGOcBdgWRhxnrn
 ---
 
 HI
@@ -36,9 +38,7 @@ hjvkfehvjk vfdsvfds
 
 <br/>
 
-Hello `Date`<swm-token data-swm-token=":communication.js:17:9:9:`    let now = new Date(),`"/>fhejkvl `AuthorizationInterceptor`<swm-token data-swm-token=":UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java:12:4:4:`public class AuthorizationInterceptor implements HandlerInterceptor  `"/>hgerjvf
-
-<br/>
+Hello `Date`<swm-token data-swm-token=":communication.js:20:9:9:`    let now = new Date(),`"/>fhejkvl `AuthorizationInterceptor`<swm-token data-swm-token=":UTest.Ex/src/main/java/Mail/AuthorizationInterceptor.java:12:4:4:`public class AuthorizationInterceptor implements HandlerInterceptor  `"/>hgerjvf
 
 <br/>
 
@@ -55,6 +55,51 @@ Hello `Date`<swm-token data-swm-token=":communication.js:17:9:9:`    let now = n
 15     	public UserToken GetUserToken(String token);
 16     	public void SaveUserToken(UserToken ut);
 ```
+
+<br/>
+
+changing stuff
+
+<br/>
+
+\`\`\`
+
+hjvkfehvjk vfdsvfds
+
+\`\`\`
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 communication.js
+```javascript
+20         let now = new Date(),
+21             startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
+22             end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
+23             endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
+24         return [startString,endString]
+```
+
+<br/>
+
+<br/>
+
+<br/>
+
+This is from Swimm
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+<!-- NOTE-swimm-repo ::veezvxCuzpPrRLLXWD2E:: -->
+### 📄 apps/web/src/common/components/organisms/EditDoc.vue
+```vue
+697        const instance = getCurrentInstance();
+698        watch(focusTitle, ({ clearTitle }) => {
+699          if (clearTitle) {
+700            instance.data.swm.name = '';
+701          }
+702          instance.refs[`${instance.data.swm.id}-title`].focus();
+703        });
+```
+
+<br/>
+
+`📄(fbapi4j) test/com/fieldexpert/fbapi4j/common/AssertTest.java`bla
 
 <br/>
 
