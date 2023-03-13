@@ -18,9 +18,10 @@ gtdb
 gtd
 shyjyrwhyrwt
     let now = new Date(),
+        Some changes
         startString = now.getFullYear() + "-" + (now.getMonth() + 1) + "-" + (now.getDate()),
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
-        endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
+        endString = end.getFullGear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
     return [startString,endString]
 };
 
