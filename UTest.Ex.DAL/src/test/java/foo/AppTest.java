@@ -1,4 +1,3 @@
-import dal.objects.Message;
 import dal.objects.User;
 import junit.framework.Test;
 import junit.framework.TestCase;
