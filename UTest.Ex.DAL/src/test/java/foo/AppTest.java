@@ -1,7 +1,5 @@
 package foo;
 
-import java.util.List;
-
 import dal.conn.Connection;
 import dal.objects.Message;
 import dal.objects.User;
