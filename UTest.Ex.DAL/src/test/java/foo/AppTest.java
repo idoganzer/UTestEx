@@ -1,5 +1,3 @@
-package foo;
-
 import dal.conn.Connection;
 import dal.objects.Message;
 import dal.objects.User;
