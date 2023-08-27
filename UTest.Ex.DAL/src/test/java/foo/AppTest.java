@@ -1,12 +1,4 @@
-package foo;
-
-import dal.conn.Connection;
-import dal.objects.Message;
-import dal.objects.User;
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-
+bvbnmvbnm,
 /**
  * Unit test for simple App.
  */
