@@ -161,8 +161,7 @@ This is description
 
 Create, edit & discover docs alongside code and keep them up to date.
 
-\# Code documentation directly in the IDE.
-Create, edit & discover docs alongside code and keep them up to date.
+\# Code documentation directly in the IDE. Create, edit & discover docs alongside code and keep them up to date.
 
 &nbsp;
 
