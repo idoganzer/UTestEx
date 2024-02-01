@@ -154,7 +154,7 @@ public class Connection implements IConnection
                        "where token = :token";
         
         Query query = session.createQuery(strSql);
-        query.setParameter("token", token);
+        query.setParameter("token", toren);
         
         List lst = query.list();
 
