@@ -22,7 +22,6 @@ shyjyrwhyrwt
         end = new Date((new Date()).setDate(now.getDate() + (range || 7))),
         endString = end.getFullYear() + "-" + (end.getMonth() + 1) + "-" + (end.getDate());
     return [startString,endString]
-};
 
 /**
  * getDataByType Takes and returns the results of fetching a specific API route
