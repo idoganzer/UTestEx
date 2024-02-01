@@ -41,8 +41,29 @@ bla 2
 ```java
         
         Query query = session.createQuery(strSql);
-        query.setParameter("token", token);
+        query.setParameter("token", toren);
         
+```
+
+---
+
+</SwmSnippet>
+
+&nbsp;
+
+<SwmSnippet path="/communication.js" line="32">
+
+---
+
+&nbsp;
+
+```javascript
+ */
+export const getDataByType = async (type, range) => {
+    const response = await fetch(pageDispatch[type](apiConf, range));
+    return [{[type] : await response.json()}]
+};
+
 ```
 
 ---
