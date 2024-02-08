@@ -3,7 +3,7 @@ title: Ido test
 ---
 bla bla&nbsp;
 
-<SwmSnippet path="/UTest.Ex/src/main/collections.$collectionType.tsx" line="1">
+<SwmSnippet path="/UTest.Ex/src/main/collections.$collectionTypes.tsx" line="1">
 
 ---
 
